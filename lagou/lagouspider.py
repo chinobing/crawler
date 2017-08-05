@@ -6,10 +6,8 @@ import zlib
 from urllib import request
 from urllib import parse
 import gzip
-from io import StringIO
 from lxml import etree
 from .parser import Parser
-import chardet
 from .header import *
 from .lagou_database import *
 
@@ -46,8 +44,7 @@ def get_last_page(page_no, key_word):
         # response = urllib.request.urlopen(request1)
         # data = response.read()
         data = get_content(url_new, headers)
-        encoding = chardet.detect(data)
-        html = etree.HTML(data.decode(encoding["encoding"]))
+        html = etree.HTML(data.decode('utf-8'))
         last_page = html.xpath('//a/@data-page')
         return int(last_page[last_page.__len__() - 1])
     except Exception as e:
@@ -85,7 +82,7 @@ def get_data(key_word, page_no_last):
                     logging.exception(e)
                     continue
                 file.writelines(parses.user_info.to_string() + '\n')
-                count = count + 1
+                count += 1
                 print(count)
             except Exception as e:
                 print(url_new)
