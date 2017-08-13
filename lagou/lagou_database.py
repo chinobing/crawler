@@ -16,7 +16,7 @@ sql_sel = "select link from lagou_link where link=\"{}\""
 
 
 def get_conn():
-    connection = pymysql.connect(host='127.0.0.1',
+    connection = pymysql.connect(host='localhost',
                                  port=3306,
                                  user='root',
                                  password='1234',

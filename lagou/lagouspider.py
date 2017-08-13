@@ -59,8 +59,12 @@ def get_data(key_word, page_no_last):
     count = 0
     for i in range(1, page_no_last + 1):
         resume_url_list = get_json_data(i, key_word)
+        if resume_url_list.__len__() == 0:
+            break
         for resume_key in resume_url_list:
             if count % 30 == 0:
+                count += 1
+                print("Sleep")
                 time.sleep(60)
             try:
                 query_result = select(resume_key)

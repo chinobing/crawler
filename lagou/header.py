@@ -3,14 +3,14 @@ headers_json = {
     'Accept-Encoding': 'gzip, deflate, sdch, br',
     'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
     'Connection': 'keep-alive',
-    'Cookie': 'user_trace_token=20170720003905-c76e8ed0-6ca0-11e7-abd0-5254005c3644; LGUID=20170720003905-c76e965f-6ca0-11e7-abd0-5254005c3644; PRE_UTM=; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DGT3DxFX0OKvyuhZsgPGeuR8VmIDfG6qsBN3G5lzTLUa%26wd%3D%26eqid%3Dd35fcd1e00012be30000000459853ead; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; index_location_city=%E5%8C%97%E4%BA%AC; JSESSIONID=8B525AC317FB0979DA5A26EAA7A31DFF; mds_login_authToken="hSxH57TR1fIUmVAVCkMdDNPY9Inb9DkuO39Bw3m2LJ83um7HHML7I7QzJ4Q3LtlLl0ot2YdvzYGxLDLg2U0QfIHAi5Kgol2nmQrGooU9a3Bw6aUvHi/1anDnXVwBh95oC1AVtzTHOLsqtryM5dOajVpEau1qbw7uNrmCPV6q8mt4rucJXOpldXhUiavxhcCELWDotJ+bmNVwmAvQCptcy5e7czUcjiQC32Lco44BMYXrQ+AIOfEccJKHpj0vJ+ngq/27aqj1hWq8tEPFFjdnxMSfKgAnjbIEAX3F9CIW8BSiMHYmPBt7FDDY0CCVFICHr2dp5gQVGvhfbqg7VzvNsw=="; mds_u_n=owen+qin; mds_u_ci=226903; mds_u_cn=%5Cu667a%5Cu9886%5Cu5148%5Cu950b; mds_u_s_cn=data+pro; _putrc=0331069B40C7DAC3; login=true; unick=owen+qin; _ga=GA1.2.563845119.1500482374; _gid=GA1.2.1605915075.1501904609; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1500482374,1500487341,1500487723,1501904609; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1501904633; X_HTTP_TOKEN=1cccc0692a97c44c93861dc759e5bab5; Hm_lvt_bfa5351db2249abae67476f1ec317000=1501904632; Hm_lpvt_bfa5351db2249abae67476f1ec317000=1501904815; _ga=GA1.3.563845119.1500482374; _gat=1; LGSID=20170805114243-23544107-7990-11e7-b08b-525400f775ce; LGRID=20170805114609-9e40c93b-7990-11e7-820e-5254005c3644',
+    'Cookie': '_ga=GA1.2.1488898107.1501313315; user_trace_token=20170729152835-3b75d29191c74192a5c47c3662ae31e1; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1501313315,1501925331,1502463143; index_location_city=%E5%8C%97%E4%BA%AC; LGUID=20170729152845-8e0c71ee-742f-11e7-bb1e-5254005c3644; _gat=1; LGSID=20170811225222-ae7301fb-7ea4-11e7-857e-5254005c3644; PRE_UTM=; PRE_HOST=; PRE_SITE=; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; LGRID=20170811225308-c9c90c83-7ea4-11e7-857e-5254005c3644; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1502463166; _gid=GA1.2.919558649.1502463143; X_HTTP_TOKEN=d325af3701dc3a3507481cf8efcb5585; _putrc=0331069B40C7DAC3; login=true; unick=owen+qin; JSESSIONID=A01B76D08EBC7CFA015C6E055AE1D3AD; mds_login_authToken="FR+NNhxPLRGdtU3FI1vJ11xkHbnuVUJHceUlEtj6GeceW6YBwSGJO2SYo3lSw0KYPdvFBaOOM1oxqMwovOEhYEt5Dm2X5u/9WAsXrKVr6DwUPSXvhZJh/80AbSyFvKjMtJJf9vNYuv3yaWTK76ymXWOPn1trigjWYoOjnZYAvrB4rucJXOpldXhUiavxhcCELWDotJ+bmNVwmAvQCptcy5e7czUcjiQC32Lco44BMYXrQ+AIOfEccJKHpj0vJ+ngq/27aqj1hWq8tEPFFjdnxMSfKgAnjbIEAX3F9CIW8BSiMHYmPBt7FDDY0CCVFICHr2dp5gQVGvhfbqg7VzvNsw=="; mds_u_n=owen+qin; mds_u_ci=226903; mds_u_cn=%5Cu667a%5Cu9886%5Cu5148%5Cu950b; mds_u_s_cn=data+pro; _ga=GA1.3.1488898107.1501313315; Hm_lvt_bfa5351db2249abae67476f1ec317000=1502463165; Hm_lpvt_bfa5351db2249abae67476f1ec317000=1502463188',
     'Host': 'easy.lagou.com',
-    'Referer': 'https://easy.lagou.com/search/result.htm?keyword=%E4%B8%AD%E5%A4%AE%E8%B4%A2%E7%BB%8F%E5%A4%A7%E5%AD%A6&city=%E4%B8%8D%E9%99%90',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36',
+    'Referer': 'https://easy.lagou.com/search/result.htm?pageNo=7&keyword=%E5%A4%A7%E5%AD%A6&city=%E4%B8%8D%E9%99%90',
+    'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
     'X-Anit-Forge-Code': '0',
     'X-Anit-Forge-Token': 'None',
     'X-Requested-With': 'XMLHttpRequest',
-    'X-Tingyun-Id': 'ZNj0zYzD4bo;r=484503',
+    'X-Tingyun-Id': 'ZNj0zYzD4bo;r=63316974',
 }
 
 headers = {
@@ -19,7 +19,7 @@ headers = {
     'Accept-Language': 'zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4',
     'Cache-Control': 'max-age=0',
     'Connection': 'keep-alive',
-    'Cookie': 'user_trace_token=20170720003905-c76e8ed0-6ca0-11e7-abd0-5254005c3644; LGUID=20170720003905-c76e965f-6ca0-11e7-abd0-5254005c3644; PRE_UTM=; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DGT3DxFX0OKvyuhZsgPGeuR8VmIDfG6qsBN3G5lzTLUa%26wd%3D%26eqid%3Dd35fcd1e00012be30000000459853ead; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; index_location_city=%E5%8C%97%E4%BA%AC; JSESSIONID=8B525AC317FB0979DA5A26EAA7A31DFF; mds_login_authToken="hSxH57TR1fIUmVAVCkMdDNPY9Inb9DkuO39Bw3m2LJ83um7HHML7I7QzJ4Q3LtlLl0ot2YdvzYGxLDLg2U0QfIHAi5Kgol2nmQrGooU9a3Bw6aUvHi/1anDnXVwBh95oC1AVtzTHOLsqtryM5dOajVpEau1qbw7uNrmCPV6q8mt4rucJXOpldXhUiavxhcCELWDotJ+bmNVwmAvQCptcy5e7czUcjiQC32Lco44BMYXrQ+AIOfEccJKHpj0vJ+ngq/27aqj1hWq8tEPFFjdnxMSfKgAnjbIEAX3F9CIW8BSiMHYmPBt7FDDY0CCVFICHr2dp5gQVGvhfbqg7VzvNsw=="; mds_u_n=owen+qin; mds_u_ci=226903; mds_u_cn=%5Cu667a%5Cu9886%5Cu5148%5Cu950b; mds_u_s_cn=data+pro; _putrc=0331069B40C7DAC3; login=true; unick=owen+qin; _ga=GA1.2.563845119.1500482374; _gid=GA1.2.1605915075.1501904609; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1500482374,1500487341,1500487723,1501904609; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1501904633; X_HTTP_TOKEN=1cccc0692a97c44c93861dc759e5bab5; Hm_lvt_bfa5351db2249abae67476f1ec317000=1501904632; Hm_lpvt_bfa5351db2249abae67476f1ec317000=1501904652; _ga=GA1.3.563845119.1500482374; LGSID=20170805114243-23544107-7990-11e7-b08b-525400f775ce; LGRID=20170805114326-3ccd7cbe-7990-11e7-b08b-525400f775ce',
+    'Cookie': '_ga=GA1.2.1488898107.1501313315; user_trace_token=20170729152835-3b75d29191c74192a5c47c3662ae31e1; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1501313315,1501925331,1502463143; index_location_city=%E5%8C%97%E4%BA%AC; LGUID=20170729152845-8e0c71ee-742f-11e7-bb1e-5254005c3644; _gat=1; LGSID=20170811225222-ae7301fb-7ea4-11e7-857e-5254005c3644; PRE_UTM=; PRE_HOST=; PRE_SITE=; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; LGRID=20170811225250-bf6c6bdd-7ea4-11e7-857e-5254005c3644; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1502463166; _gid=GA1.2.919558649.1502463143; X_HTTP_TOKEN=d325af3701dc3a3507481cf8efcb5585; _putrc=0331069B40C7DAC3; login=true; unick=owen+qin; JSESSIONID=A01B76D08EBC7CFA015C6E055AE1D3AD; mds_login_authToken="FR+NNhxPLRGdtU3FI1vJ11xkHbnuVUJHceUlEtj6GeceW6YBwSGJO2SYo3lSw0KYPdvFBaOOM1oxqMwovOEhYEt5Dm2X5u/9WAsXrKVr6DwUPSXvhZJh/80AbSyFvKjMtJJf9vNYuv3yaWTK76ymXWOPn1trigjWYoOjnZYAvrB4rucJXOpldXhUiavxhcCELWDotJ+bmNVwmAvQCptcy5e7czUcjiQC32Lco44BMYXrQ+AIOfEccJKHpj0vJ+ngq/27aqj1hWq8tEPFFjdnxMSfKgAnjbIEAX3F9CIW8BSiMHYmPBt7FDDY0CCVFICHr2dp5gQVGvhfbqg7VzvNsw=="; mds_u_n=owen+qin; mds_u_ci=226903; mds_u_cn=%5Cu667a%5Cu9886%5Cu5148%5Cu950b; mds_u_s_cn=data+pro; _ga=GA1.3.1488898107.1501313315; Hm_lvt_bfa5351db2249abae67476f1ec317000=1502463165; Hm_lpvt_bfa5351db2249abae67476f1ec317000=1502463171',
     'Host': 'easy.lagou.com',
     'Referer': 'https://easy.lagou.com/search/index.html',
     'Upgrade-Insecure-Requests': '1',
@@ -85,6 +85,7 @@ school_no_in_lagou = {
 }
 
 caijing_school_2 = {
+    '中国政法大学': 0,
     "云南财经大学": 0,
     "河南财经政法大学": 0,
     "山西财经大学": 0,
@@ -103,9 +104,6 @@ caijing_school_2 = {
     "内蒙古财经大学": 0,
     "广东金融学院": 0,
     "广西财经学院": 0,
-}
-
-caijing_school_3 = {
     "湖北经济学院": 0,
     "郑州航空工业管理学院": 0,
     "上海金融学院": 0,
@@ -123,6 +121,56 @@ caijing_school_3 = {
     "桂林旅游学院": 0,
     "贵州商学院": 0,
     "河北环境工程学院": 0,
-    "附件商业高等专科学校": 0,
     "河南财经金融学院": 0,
 }
+
+school_211 = [
+    "清华大学", "北京大学", "厦门大学", "南京大学", "复旦大学", "天津大学",
+    "浙江大学", "南开大学", "西安交通大学", "东南大学", "武汉大学", "上海交通大学",
+    "山东大学", "湖南大学", "中国人民大学", "吉林大学", "重庆大学", "电子科技大学",
+    "四川大学", "中山大学", "华南理工大学", "兰州大学", "东北大学", "西北工业大学",
+    "哈尔滨工业大学", "华中科技大学", "中国海洋大学", "北京理工大学", "大连理工大学", "北京航空航天大学",
+    "北京师范大学", "同济大学", "中南大学", "中国科学技术大学",
+    "中国农业大学", "国防科学技术大学", "中央民族大学", "华东师范大学", "西北农林科技大学"]
+
+school_211_not_visit = ['国防科学技术大学', '华东师范大学']
+
+school_985 = [
+    "北京大学", "清华大学", "复旦大学", "武汉大学", "浙江大学", "中国人民大学", "上海交通大学", "南京大学", "国防科学技术大学", "中山大学", "吉林大学", "中国科学技术大学",
+    "华中科技大学", "四川大学", "北京师范大学", "南开大学", "西安交通大学", "中南大学", "同济大学", "天津大学", "哈尔滨工业大学", "山东大学", "厦门大学", "东南大学", "北京航空航天大学",
+    "东北大学", "重庆大学", "华东师范大学", "大连理工大学", "北京理工大学", "华南理工大学", "中国农业大学", "湖南大学", "华中师范大学", "西北工业大学", "兰州大学", "电子科技大学",
+    "武汉理工大学", "中国地质大学（北京）", "中国地质大学（武汉）", "东北师范大学", "北京科技大学", "北京交通大学", "中国矿业大学（北京）", "中国矿业大学（徐州）", "长安大学", "南京农业大学",
+    "西北大学", "华东理工大学", "华中农业大学", "南京师范大学", "西南交通大学", "西南大学", "中国海洋大学", "河海大学", "暨南大学", "南京理工大学", "哈尔滨工程大学", "云南大学",
+    "中国石油大学（北京）", "中国石油大学（华东）", "南京航空航天大学", "郑州大学", "苏州大学", "上海财经大学", "西北农林科技大学", "中国政法大学", "合肥工业大学", "北京邮电大学",
+    "西安电子科技大学",
+    "第二军医大学", "湖南师范大学", "第四军医大学", "华南师范大学", "上海大学", "中南财经政法大学", "西南财经大学", "北京化工大学", "东华大学", "南昌大学", "中央财经大学", "北京工业大学",
+    "福州大学", "广西大学", "陕西师范大学", "北京林业大学", "中央民族大学", "对外经济贸易大学", "华北电力大学（北京）", "华北电力大学（保定）", "安徽大学", "江南大学", "东北林业大学",
+    "太原理工大学", "内蒙古大学", "辽宁大学", "新疆大学", "海南大学", "石河子大学", "北京中医药大学", "天津医科大学", "中国药科大学", "贵州大学", "河北工业大学", "东北农业大学",
+    "四川农业大学",
+    "大连海事大学", "宁夏大学", "延边大学", "西藏大学", "青海大学", "中国传媒大学", "中央音乐学院", "北京体育大学", "北京外国语大学", "上海外国语大学"]
+
+school_985_not_211 = [
+    '合肥工业大学', '南昌大学', '苏州大学', '东北农业大学', '中国传媒大学', '东华大学', '延边大学', '华北电力大学（北京）', '湖南师范大学',
+    '西北大学', '石河子大学', '第四军医大学', '武汉理工大学', '江南大学', '西南大学', '上海外国语大学', '中国石油大学（华东）',
+    '中国矿业大学（北京）', '大连海事大学', '中国地质大学（武汉）', '哈尔滨工程大学', '长安大学', '北京中医药大学', '北京科技大学',
+    '广西大学', '河北工业大学', '青海大学', '北京林业大学', '上海大学', '北京工业大学', '西安电子科技大学', '西南交通大学',
+    '上海财经大学', '暨南大学', '海南大学', '南京航空航天大学', '南京师范大学', '南京理工大学', '华中师范大学', '第二军医大学', '贵州大学',
+    '华东理工大学', '东北师范大学', '中南财经政法大学', '北京化工大学', '太原理工大学', '云南大学', '南京农业大学',
+    '西藏大学', '中国石油大学（北京）', '内蒙古大学', '四川农业大学', '河海大学', '中国药科大学',
+    '华北电力大学（保定）', '辽宁大学', '北京外国语大学', '中国矿业大学（徐州）', '中国政法大学', '宁夏大学',
+    '中央音乐学院', '西南财经大学', '新疆大学', '对外经济贸易大学', '华南师范大学', '东北林业大学', '天津医科大学',
+    '北京交通大学', '北京体育大学', '中国地质大学（北京）', '郑州大学', '中央财经大学', '陕西师范大学', '福州大学',
+    '安徽大学', '华中农业大学', '北京邮电大学'
+]
+
+school_985_not_211_not_caijing = [
+    '合肥工业大学', '南昌大学', '苏州大学', '东北农业大学', '中国传媒大学', '东华大学', '延边大学', '华北电力大学（北京）', '湖南师范大学',
+    '西北大学', '石河子大学', '第四军医大学', '武汉理工大学', '江南大学', '西南大学', '上海外国语大学', '中国石油大学（华东）',
+    '中国矿业大学（北京）', '大连海事大学', '中国地质大学（武汉）', '哈尔滨工程大学', '长安大学', '北京中医药大学', '北京科技大学',
+    '广西大学', '河北工业大学', '青海大学', '北京林业大学', '上海大学', '北京工业大学', '西安电子科技大学', '西南交通大学', '暨南大学',
+    '海南大学', '南京航空航天大学', '南京师范大学', '南京理工大学', '华中师范大学', '第二军医大学', '贵州大学', '华东理工大学',
+    '东北师范大学', '北京化工大学', '太原理工大学', '云南大学', '南京农业大学', '西藏大学', '中国石油大学（北京）', '内蒙古大学'
+    , '四川农业大学', '河海大学', '中国药科大学', '华北电力大学（保定）', '辽宁大学', '北京外国语大学', '中国矿业大学（徐州）',
+    '宁夏大学', '中央音乐学院', '新疆大学', '华南师范大学', '东北林业大学', '天津医科大学', '北京交通大学', '北京体育大学',
+    '中国地质大学（北京）', '郑州大学', '陕西师范大学', '福州大学', '安徽大学', '华中农业大学', '北京邮电大学'
+]

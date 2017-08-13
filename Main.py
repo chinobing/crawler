@@ -1,8 +1,9 @@
-from lagou.lagouspider import *
-from lagou.header import caijing_school_1
+from general.kr import crawl_data
+import re
+crawl_data()
 
-keys = caijing_school_1.keys()
-
-for key in keys:
-    print(key)
-    get_data(key, caijing_school_1[key])
+# pattern = re.compile(r'(http(s)?://36kr\.com)?(/p/.*?html)')
+# s = 'http://36kr.com/p/1234.html#dafds123'
+# mt = pattern.match(s)
+# if mt:
+#     print(mt.group(3))
