@@ -1,6 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
 from selenium import webdriver
+import time
+import signal
 import re
 from .database import *
 
@@ -50,10 +52,20 @@ def crawl(url):
         pass
 
 
+def handler(signum, frame):
+    raise Exception("timeout")
+
+
 def get_data(url):
     try:
         driver = webdriver.PhantomJS(executable_path='/home/jfq/software/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+        # 设置定时处理,超过120s没有返回数据则视为无法获得,抛出异常即可.
+        signal.signal(signal.SIGALRM, handler)
+        # 定时开始,
+        signal.alarm(120)
         driver.get(url)
+        # 取消定时 如果成功获取到页面.
+        signal.alarm(0)
         # urls.remove(url)
         # already_visit.append(url)
         lists = driver.find_elements_by_tag_name('a')
@@ -79,7 +91,7 @@ def get_data(url):
                 # if link not in already_visit:
                 #     urls.append(link)
     except Exception as e:
-        pass
+        print(e)
     finally:
         driver.quit()
 
@@ -107,8 +119,12 @@ def select_top():
 
 
 def crawl_data():
+    # 第一次运行时需要将start url加入到未访问数据库中,以此开始整个网站的爬取.
     # insert_url(start_url)
     while 1:
         links = select_top()
         for link in links:
-            get_data(link['link'])
+            try:
+                get_data(link['link'])
+            except Exception as e:
+                print(e)

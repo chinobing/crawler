@@ -1,6 +1,7 @@
 import pymysql
 
 
+# 配置MySQL, 返回MySQL connection
 def get_conn():
     con = pymysql.connect(host='localhost',
                           port=3306,
@@ -12,6 +13,7 @@ def get_conn():
     return con
 
 
+# 插入数据与更新数据都是同一个函数
 def insert_data(sql):
     connection = get_conn()
     try:
@@ -31,6 +33,8 @@ def insert_list(table_name, lists):
     insert_data(sql)
 
 
+# fetchone()返回的是一个字典, 键为表的列名, 值为该列的值,
+# 如果select的值不存在,返回空字典
 def select(sql):
     connection = get_conn()
     try:
