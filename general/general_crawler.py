@@ -41,7 +41,7 @@ class GeneralCrawler(object):
                     continue
                 mather = self.host.match(href)
                 if mather:
-                    parse_url = self.host.get_parse_url(href)
+                    parse_url = self.host.get_parse_url(mather)
                     is_visited = self.select_url(parse_url)
                     if not is_visited:
                         self.insert_url(parse_url)

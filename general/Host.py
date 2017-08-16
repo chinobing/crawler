@@ -14,8 +14,8 @@ class Host(object):
     def get_table_name(self):
         pass
 
-    def get_column(self):
-        pass
+    # def get_column(self):
+    #     pass
 
     def get_start_url(self):
         pass
