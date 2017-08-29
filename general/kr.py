@@ -18,6 +18,7 @@ already_visit = []  # 保存已经访问的站点, 避免重复访问
 data_format = "{},\t {},\t {}\r\n"
 table_name = '36kr_link'
 link_pattern = re.compile(r'(http(s)?://36kr\.com)?(/p/.*?html)')
+dir_path = "./html/36kr/"
 
 
 def store_data(link, title, content):
@@ -31,6 +32,20 @@ def store_data(link, title, content):
     """
     f = open('result.csv', 'at')
     f.write(str.format(data_format, title, content, link).replace("\n", ""))
+    f.close()
+
+
+def save_html(url, content):
+    print(url)
+    pos = 0
+    while 1:
+        if url.find('/', pos) > -1:
+            pos = url.find('/', pos) + 1
+        else:
+            break
+    file_name = url[pos:]
+    f = open(dir_path + file_name, 'wt')
+    f.write(content)
     f.close()
 
 
@@ -69,12 +84,13 @@ def get_data(url):
         # urls.remove(url)
         # already_visit.append(url)
         lists = driver.find_elements_by_tag_name('a')
-        title = driver.title
-        try:
-            content = driver.find_element_by_tag_name('p').text[0: 50]
-        except Exception as e:
-            content = ""
-        store_data(url, title, content)
+        # title = driver.title
+        # try:
+        #     content = driver.find_element_by_tag_name('p').text[0: 50]
+        # except Exception as e:
+        #     content = ""
+        # store_data(url, title, content)
+        # save_html(url, content=driver.page_source)
         update_url(url)
         for node in lists:
             link = node.get_attribute('href')
@@ -94,6 +110,7 @@ def get_data(url):
         print(e)
     finally:
         driver.quit()
+
 
 # 插入链接到数据库中
 def insert_url(url):

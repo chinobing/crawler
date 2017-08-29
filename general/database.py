@@ -1,5 +1,11 @@
 import pymysql
 
+general_table_create = 'CREATE TABLE  IF NOT EXISTS {}(' \
+                       'id INT PRIMARY KEY AUTO_INCREMENT,' \
+                       'link VARCHAR(3000),' \
+                       'visit INT' \
+                       ');'
+
 
 # 配置MySQL, 返回MySQL connection
 def get_conn():
@@ -11,6 +17,12 @@ def get_conn():
                           charset='utf8',
                           cursorclass=pymysql.cursors.DictCursor)
     return con
+
+
+# 根据表名创建表
+def create_table(table_name):
+    sql = general_table_create.format(table_name)
+    insert_data(sql)
 
 
 # 插入数据与更新数据都是同一个函数
