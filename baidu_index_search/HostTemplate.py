@@ -20,6 +20,8 @@ class HostTemplate(object):
         self.date_format = None         # 时间的格式(yyyy-MM-dd) (str)
         self.pattern = None             # 对站点过滤的正则表达式 (re pattern)
         self.max_page = 10              # 用当前时间搜索后,最多在百度上访问几页
+        self.cookies_dict = None
+        self.count = 0
 
     def get_next_day(self):
         """
@@ -68,7 +70,12 @@ class HostTemplate(object):
         while len(url) > 0 and failure < 10:
             print(url)
             try:
-                r = requests.get(url)
+                if self.cookies_dict is None or self.count >= 50:
+                    r = requests.get(url)
+                    self.cookies_dict = requests.utils.dict_from_cookiejar(r.cookies)
+                    self.count = 0
+                else:
+                    r = requests.get(url, cookies=self.cookies_dict)
             except Exception as e:
                 failure += 1
                 continue
