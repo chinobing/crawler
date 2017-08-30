@@ -22,5 +22,5 @@ from baidu_index_search import Company
 
 # save_simple_url()
 
-obj = Company.LeiFeng()
+obj = Company.HuXiu()
 obj.crawl_link()

@@ -9,7 +9,7 @@ general_table_create = 'CREATE TABLE  IF NOT EXISTS {}(' \
 
 # 配置MySQL, 返回MySQL connection
 def get_conn():
-    con = pymysql.connect(host='localhost',
+    con = pymysql.connect(host='192.168.2.111',
                           port=3306,
                           user='root',
                           password='1234',

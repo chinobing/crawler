@@ -5,7 +5,7 @@ from general.database import *
 from urllib.parse import quote
 from lxml import etree
 import time
-
+import logging
 
 class HostTemplate(object):
     one_day_delta = datetime.timedelta(days=1)
@@ -68,7 +68,8 @@ class HostTemplate(object):
         max_page = self.max_page
         # url用来控是否有下一页, failure 用来控制失败次数
         while len(url) > 0 and failure < 10:
-            print(url)
+            # print(url)
+            logging.info(url)
             try:
                 if self.cookies_dict is None or self.count >= 50:
                     r = requests.get(url)
@@ -77,6 +78,7 @@ class HostTemplate(object):
                 else:
                     r = requests.get(url, cookies=self.cookies_dict)
             except Exception as e:
+                self.cookies_dict = None
                 failure += 1
                 continue
 
@@ -125,6 +127,12 @@ class HostTemplate(object):
             return 0
 
     def crawl_link(self):
+        logging.basicConfig(level=logging.INFO,
+                            format=("%(asctime)s %(levelname)s %(message)s"),
+                            datefmt="%Y-%m-%d %H:%M:%S",
+                            filename="log/" + self.table_name + ".log",
+                            filemode="a",
+                            )
         # 如果表不存在则创建表
         create_table(self.table_name)
         while HostTemplate.compare_date(self.end_date, self.cur_date):
