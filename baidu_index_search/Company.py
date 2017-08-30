@@ -30,7 +30,7 @@ class HuXiu(HostTemplate):
         self.table_name = "huxiu_link"
         self.site = "huxiu.com/"
         self.date_format = "%Y-%m-%d"
-        self.cur_date = datetime.datetime.strptime("2012-06-01", self.date_format)
+        self.cur_date = datetime.datetime.strptime("2012-06-22", self.date_format)
         self.end_date = datetime.datetime.now()
         self.pattern = re.compile(r'(http(s)?://www.huxiu.com)?(/article/.*?html)')
         self.max_page = 5

@@ -72,11 +72,11 @@ class HostTemplate(object):
             logging.info(url)
             try:
                 if self.cookies_dict is None or self.count >= 50:
-                    r = requests.get(url)
+                    r = requests.get(url, timeout=10)
                     self.cookies_dict = requests.utils.dict_from_cookiejar(r.cookies)
                     self.count = 0
                 else:
-                    r = requests.get(url, cookies=self.cookies_dict)
+                    r = requests.get(url, cookies=self.cookies_dict, timeout=10)
             except Exception as e:
                 self.cookies_dict = None
                 failure += 1
