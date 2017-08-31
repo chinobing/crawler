@@ -81,3 +81,43 @@ class TouZiJie(HostTemplate):
             return self.main_page_url + match.group(3)
         else:
             return ""
+
+
+class RenRenDouShiChanPinJingLi(HostTemplate):
+    def __init__(self):
+        super().__init__()
+        self.main_page_url = "http://www.woshipm.com"
+        self.table_name = "renrendoushichanpinjingli_link"
+        self.site = "woshipm.com/"
+        self.date_format = "%Y-%m-%d"
+        self.cur_date = datetime.datetime.strptime("2010-01-01", self.date_format)
+        self.end_date = datetime.datetime.now()
+        self.pattern = re.compile(r'(http(s)?://.*?.woshipm.com)?(/.*?html)')
+        self.max_page = 5
+
+    def pattern_match(self, url):
+        match = self.pattern.match(url)
+        if match:
+            return self.main_page_url + match.group(3)
+        else:
+            return ""
+
+
+class IHeiMa(HostTemplate):
+    def __init__(self):
+        super().__init__()
+        self.main_page_url = "http://www.iheima.com"
+        self.table_name = "iheima_link"
+        self.site = "iheima.com/"
+        self.date_format = "%Y-%m-%d"
+        self.cur_date = datetime.datetime.strptime("2012-06-01", self.date_format)
+        self.end_date = datetime.datetime.now()
+        self.pattern = re.compile(r'(http(s)?://.*?.iheima.com)?(/.*?html)')
+        self.max_page = 5
+
+    def pattern_match(self, url):
+        match = self.pattern.match(url)
+        if match:
+            return url
+        else:
+            return ""
