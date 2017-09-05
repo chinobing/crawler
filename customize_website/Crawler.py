@@ -3,11 +3,12 @@ import os
 import logging
 import requests
 from .database import DBUtil
+import html
 
 
 class Crawler(object):
 
-    all_file_dir = "D:\\document\\datapro_files\\"
+    all_file_dir = "/home/jfq/Documents/datapro_html/"
 
     select_sql_format = "SELECT * FROM article_link WHERE link = \"{}\""
     insert_sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
@@ -23,6 +24,7 @@ class Crawler(object):
         self.dirs = None                # 需要保存的目录位置
         self.relative_path = None
         self.cookie_dict = {}
+        self.date_format = "%Y-%m-%d %H:%M:%S"
 
     def crawl(self):
         """
@@ -38,36 +40,53 @@ class Crawler(object):
         :return:
         """
         # 从URL链接中取出为文件名，最后一个斜线后面的部分去掉.html就是。
-        slash_pos = -1
-        if url.endswith("/"):
-            url = url[:len(url) - 1]
-        while 1:
-            tmp = url.find("/", slash_pos + 1)
-            if tmp < -1:
-                break
-            slash_pos = tmp
-        point_pos = url.find(".", slash_pos)
-        if point_pos > 0:
-            file_name = url[slash_pos + 1: point_pos]
-        else:
-            file_name = url[slash_pos + 1:]
-        html_content = self.get_req(url)
-        self.make_dirs()
-        self.save_html_file(html_content.decode("utf-8"), file_name)
-        body_content, title, page_view, publish_time = self.parse_html(html_content)
-        self.save_content_file(body_content, file_name)
-        self.insert_data(url, self.item_path, title,
-                         self.relative_path + file_name + ".html",
-                         page_view, publish_time)
+        try:
+            # 首先查询目标链接是否已经在数据库中,如果在,则返回.
+            select_sql = Crawler.select_sql_format.format(url)
+            result = DBUtil.select_data(select_sql)
+            if result:
+                return
+            slash_pos = -1
+            if url.endswith("/"):
+                url = url[:len(url) - 1]
+            while 1:
+                tmp = url.find("/", slash_pos + 1)
+                if tmp < 0:
+                    break
+                slash_pos = tmp
+            point_pos = url.find(".", slash_pos)
+            if point_pos > 0:
+                file_name = url[slash_pos + 1: point_pos]
+            else:
+                file_name = url[slash_pos + 1:]
+            html_content = self.get_req(url)
+            self.make_dirs()
+            try:
+                src_content = html_content.decode("utf-8")
+            except:
+                try:
+                    src_content = html_content.decode("gb2312")
+                except:
+                    logging.error("Can't decode with utf-8 or gb2312")
+                    raise BaseException()
+            self.save_html_file(content=html_content.decode("utf-8"), file_name=file_name)
+            body_content, title, page_view, publish_time = self.parse_html(html_content)
+            self.save_content_file(content=body_content, file_name=file_name)
+            self.insert_data(url, self.item_path, title,
+                             self.relative_path + file_name + ".html",
+                             page_view, publish_time)
+        except BaseException:
+            logging.error("Process link failed. URL=%s" % url)
+            raise BaseException
 
     @staticmethod
-    def insert_data(link, item_path, title, html_path,page_view, publish_time):
-        select_sql = Crawler.select_sql_format.format(link)
-        result = DBUtil.select_data(select_sql)
-        if not result:
-            insert_sql = Crawler.insert_sql_format.format(link, item_path, title,
+    def insert_data(link, item_path, title, html_path, page_view, publish_time):
+        try:
+            insert_sql = Crawler.insert_sql_format.format(link, item_path, html.escape(title),
                                                           html_path, page_view, publish_time)
             DBUtil.insert_data(insert_sql)
+        except:
+            raise BaseException()
 
     def parse_html(self, content):
         """
@@ -76,14 +95,26 @@ class Crawler(object):
         return "", "", 0, "2000:01:01 00:00:00"
 
     def make_dirs(self):
-        if not os.path.isdir(self.dirs):
-            os.makedirs(path=self.dirs)
+        try:
+            if not os.path.isdir(self.dirs):
+                os.makedirs(self.dirs)
+        except BaseException as e:
+            logging.error("Make directory error. ErrorMsg: %s" % str(e))
+            raise BaseException()
 
     def save_html_file(self, file_name, content):
-        self.save_file(self.dirs + file_name + ".html", content)
+        try:
+            self.save_file(self.dirs + file_name + ".html", content)
+        except BaseException as e:
+            logging.error("Save HTML file error. ErrorMsg: %s" % str(e))
+            raise BaseException()
 
     def save_content_file(self, file_name, content):
-        self.save_file(self.dirs + file_name + ".txt", content)
+        try:
+            self.save_file(self.dirs + file_name + ".txt", content)
+        except BaseException as e:
+            logging.error("Save content file error. ErrorMsg: %s" % str(e))
+            raise BaseException()
 
     @staticmethod
     def save_file(path, content):
@@ -100,5 +131,7 @@ class Crawler(object):
             return r.content
         except requests.ConnectTimeout:
             logging.error("Connection timeout. URL = " + link)
+            raise BaseException()
         except BaseException as e:
             logging.error("Get URL content error. URL = " + link + " ErrorMsg: " + str(e))
+            raise BaseException()

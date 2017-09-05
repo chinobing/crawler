@@ -14,7 +14,7 @@ class DBUtil(object):
                            'title VARCHAR(100) NOT NULL,' \
                            'html_path VARCHAR(200) NOT NULL,' \
                            'page_view INT DEFAULT 0,' \
-                           'public_time VARCHAR(30));'
+                           'publish_time VARCHAR(30));'
 
     @staticmethod
     def get_conn():
@@ -31,17 +31,18 @@ class DBUtil(object):
         return con
 
     @staticmethod
-    def create_table(table_name):
+    def create_table():
         # 根据表名创建表
         connection = DBUtil.get_conn()
         try:
-            sql = DBUtil.general_table_create.format(table_name)
+            sql = DBUtil.general_table_create
             with connection.cursor() as cursor:
                 cursor.execute(sql)
                 connection.commit()
                 cursor.close()
         except BaseException as e:
             logging.error("Create table error. SQL = " + sql)
+            raise BaseException()
 
     @staticmethod
     def insert_data(sql):
@@ -54,7 +55,8 @@ class DBUtil(object):
                 cursor.close()
         except BaseException as e:
             # 不知道对应MySQL的异常类型
-            logging.error("Insert data error. SQL = " + sql)
+            logging.error("Insert data error. SQL = " + sql + " ErrorMsg: %s" % str(e))
+            raise BaseException()
 
     @staticmethod
     def select_data(sql):
@@ -70,6 +72,7 @@ class DBUtil(object):
                 return result
         except BaseException as e:
             logging.error("Query data error. SQL = " + sql)
+            raise BaseException()
 
     @staticmethod
     def close_conn():

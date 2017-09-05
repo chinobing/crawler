@@ -6,3 +6,85 @@
 2017-09-05 17:12:25 Crawler.py[line: 99] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2017-08-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1&r=0.2782341483453912 success.
 2017-09-05 17:13:27 Crawler.py[line: 99] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1&r=0.2782341483453912 success.
 2017-09-05 17:14:00 Crawler.py[line: 99] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:05:08 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:05:59 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:06:31 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:08:08 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:08:08 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:08:56 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:08:57 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:26:56 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:26:57 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:27:43 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:27:43 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:28:57 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:28:58 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:31:10 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:31:10 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:33:52 Crawler.py[line: 100] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 21:33:53 Crawler.py[line: 100] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 21:34:51 database.py[line: 72] ERROR Query data error. SQL = SELECT * FROM article_link WHERE link = "http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml"
+2017-09-05 21:34:51 database.py[line: 57] ERROR Insert data error. SQL = INSERT INTO article_link(link, item_path, title, html_path, page_view, publish_time) VALUES("http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml", "新浪科技->创业->滚动新闻", "
+
+
+　　新浪科技讯 6月1日下午消息，国内首款户外生活互动平台——荡客APP 1.1版本将于今日正式上线。
+　　数据显示，2014年美国户外活动次数已达到150亿次以上。随着中国人收入水平增长，户外消费人群也逐年增长，预计2020-2025年，中国户外消费人群将达到3亿人。
+　　据了解，目前荡客平台已经拥有数十种户外活动，除了大家常见的登山和徒步，还有攀岩，骑马，跑步，冲浪，极限运动等丰富的活动。目前，荡客平台已拥有超4000家俱乐部，累计30000条线路。而呈现在荡客平台上的经筛选过的推荐线路活动。
+　　荡客拥有独有的活动线路管理体系加轻社交平台模式。用户可以以动态的方式进行互动，发布信息，邀请朋友参与活动，与同样爱好的朋友进行互动。
+　　据悉，荡客APP已经入驻百名户外达人，例如罗静，已成功登顶7座8000米以上雪山，是首位登顶乔戈里山峰(世界排名第二高峰，难度最大)的华人女姓。在用户成功注册荡客后，荡客频道会为用户推荐明星达人以及优秀领队，那么，普通的爱好者可以直接和心中的户外偶像进行互动交流。这些明星达人也会定期为用户免费做分享与户外知识培训。
+　　荡客CEO李硕表示：移动互联网浪潮给户外行业带来了新的机会。荡客正是利用移动互联网技术，推动户外圈的生态链的升级。俱乐部这两年已经变成户外爱好者出行的首选。相比旅行社的导游，户外俱乐部的领队更加专业。户外俱乐部的线路也更加丰富、更加注重个性化体验。荡客的存在，将这些专业的俱乐部与领队吸纳到平台上，为用户更好的服务。也是户外产业发展的创新模式。(无双)
+
+", "XinLangKeJi/ChuangYe/GunDongXinWen/doc-icpkqeaz6339311.html",0, "2015-06-01 16:00:00")
+2017-09-05 22:20:51 Crawler.py[line: 119] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:20:52 Crawler.py[line: 119] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 22:20:52 Crawler.py[line: 105] ERROR Save content file error. ErrorMsg: [Errno 36] File name too long: '/home/jfq/Documents/datapro_html/XinLangKeJi/ChuangYe/GunDongXinWen/\n\n\n\u3000\u3000新浪科技讯 6月1日下午消息，国内首款户外生活互动平台——荡客APP 1.1版本将于今日正式上线。\n\u3000\u3000数据显示，2014年美国户外活动次数已达到150亿次以上。随着中国人收入水平增长，户外消费人群也逐年增长，预计2020-2025年，中国户外消费人群将达到3亿人。\n\u3000\u3000据了解，目前荡客平台已经拥有数十种户外活动，除了大家常见的登山和徒步，还有攀岩，骑马，跑步，冲浪，极限运动等丰富的活动。目前，荡客平台已拥有超4000家俱乐部，累计30000条线路。而呈现在荡客平台上的经筛选过的推荐线路活动。\n\u3000\u3000荡客拥有独有的活动线路管理体系加轻社交平台模式。用户可以以动态的方式进行互动，发布信息，邀请朋友参与活动，与同样爱好的朋友进行互动。\n\u3000\u3000据悉，荡客APP已经入驻百名户外达人，例如罗静，已成功登顶7座8000米以上雪山，是首位登顶乔戈里山峰(世界排名第二高峰，难度最大)的华人女姓。在用户成功注册荡客后，荡客频道会为用户推荐明星达人以及优秀领队，那么，普通的爱好者可以直接和心中的户外偶像进行互动交流。这些明星达人也会定期为用户免费做分享与户外知识培训。\n\u3000\u3000荡客CEO李硕表示：移动互联网浪潮给户外行业带来了新的机会。荡客正是利用移动互联网技术，推动户外圈的生态链的升级。俱乐部这两年已经变成户外爱好者出行的首选。相比旅行社的导游，户外俱乐部的领队更加专业。户外俱乐部的线路也更加丰富、更加注重个性化体验。荡客的存在，将这些专业的俱乐部与领队吸纳到平台上，为用户更好的服务。也是户外产业发展的创新模式。(无双)\n\n.txt'
+2017-09-05 22:20:52 Crawler.py[line: 65] ERROR Get link data failed. URL=http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml
+2017-09-05 22:23:35 Crawler.py[line: 119] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:23:35 Crawler.py[line: 119] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 22:23:35 database.py[line: 58] ERROR Insert data error. SQL = INSERT INTO article_link(link, item_path, title, html_path, page_view, publish_time) VALUES("http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml", "新浪科技->创业->滚动新闻", "荡客APP上线 推动户外圈生态链升级|APP|荡客_互联网_新浪科技_新浪网", "XinLangKeJi/ChuangYe/GunDongXinWen/doc-icpkqeaz6339311.html",0, "2015-06-01 16:00:00")
+2017-09-05 22:23:35 Crawler.py[line: 65] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml
+2017-09-05 22:29:24 Crawler.py[line: 120] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:29:24 Crawler.py[line: 120] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6339311.shtml success.
+2017-09-05 22:40:00 Crawler.py[line: 122] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:41:08 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icczmvup2687611.shtml success.
+2017-09-05 22:42:16 Crawler.py[line: 122] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:42:30 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-iawzuney6515069.shtml success.
+2017-09-05 22:42:33 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6300536.shtml success.
+2017-09-05 22:42:41 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icczmvup2666501.shtml success.
+2017-09-05 22:42:44 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-iawzuney6509799.shtml success.
+2017-09-05 22:42:48 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6289447.shtml success.
+2017-09-05 22:42:51 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icpkqeaz6255967.shtml success.
+2017-09-05 22:42:55 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icczmvup2645015.shtml success.
+2017-09-05 22:42:59 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icczmvup2644968.shtml success.
+2017-09-05 22:43:03 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/other/cy/2015-06-01/doc-icpkqeaz6253921.shtml success.
+2017-09-05 22:43:06 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-icczmvup2641039.shtml success.
+2017-09-05 22:43:10 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/other/cy/2015-06-01/doc-icpkqeaz6248498.shtml success.
+2017-09-05 22:43:14 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/other/cy/2015-06-01/doc-icpkqeaz6247155.shtml success.
+2017-09-05 22:43:17 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-01/doc-iavxeafs8408924.shtml success.
+2017-09-05 22:43:23 Crawler.py[line: 122] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:43:24 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-iawzuney6602230.shtml success.
+2017-09-05 22:43:27 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/it/2015-06-02/doc-icpkqeaz6506499.shtml success.
+2017-09-05 22:43:31 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-iawzuney6594911.shtml success.
+2017-09-05 22:43:35 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-iavxeafs8512170.shtml success.
+2017-09-05 22:43:39 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-iawzuney6594255.shtml success.
+2017-09-05 22:43:42 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/it/2015-06-02/doc-icpkqeaz6491186.shtml success.
+2017-09-05 22:43:46 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-icpkqeaz6469831.shtml success.
+2017-09-05 22:43:49 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-icczmvup2739390.shtml success.
+2017-09-05 22:43:53 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/it/2015-06-02/doc-iawzuney6581274.shtml success.
+2017-09-05 22:43:57 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/it/2015-06-02/doc-iawzuney6579436.shtml success.
+2017-09-05 22:44:00 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-02/doc-iavxeafs8493333.shtml success.
+2017-09-05 22:44:06 Crawler.py[line: 122] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:44:06 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1890621.shtml success.
+2017-09-05 22:44:10 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvrak2633505.shtml success.
+2017-09-05 22:44:13 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1882470.shtml success.
+2017-09-05 22:44:17 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1879772.shtml success.
+2017-09-05 22:44:23 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/it/2015-06-03/doc-icrvvqrf3962613.shtml success.
+2017-09-05 22:44:28 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvqrf3961822.shtml success.
+2017-09-05 22:44:32 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1878069.shtml success.
+2017-09-05 22:44:37 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvqrf3947050.shtml success.
+2017-09-05 22:44:41 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1870387.shtml success.
+2017-09-05 22:44:45 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1869639.shtml success.
+2017-09-05 22:44:49 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1867963.shtml success.
+2017-09-05 22:44:54 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 22:44:54 Crawler.py[line: 71] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 22:52:41 Crawler.py[line: 130] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
