@@ -1,14 +1,10 @@
 import pymysql
-from .log_util import LogUtil
 import logging
-
-LogUtil.log_config(logging.INFO)
 
 
 class DBUtil(object):
 
     con = None
-
 
     # 多台电脑上跑,可能会每次创建表,比较麻烦,因此直接写在代码中,没有表会自动创建表.
     general_table_create = 'CREATE TABLE  IF NOT EXISTS article_link(' \
@@ -16,10 +12,9 @@ class DBUtil(object):
                            'link varchar(500) NOT NULL,' \
                            'item_path VARCHAR(100) NOT NULL,' \
                            'title VARCHAR(100) NOT NULL,' \
-                           'content_path VARCHAR(200) NOT NULL,' \
                            'html_path VARCHAR(200) NOT NULL,' \
-                           'page_view INT NOT NULL DEFAULT 0,' \
-                           'public_time DATE NOT NULL);'
+                           'page_view INT DEFAULT 0,' \
+                           'public_time VARCHAR(30));'
 
     @staticmethod
     def get_conn():

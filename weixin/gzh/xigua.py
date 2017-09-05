@@ -2,10 +2,10 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from customize_website.database import DBUtil
-from customize_website.log_util import LogUtil
 import logging
 import html
 import time
+import datetime
 
 # 将cookie字符串转换为字典
 cookies_dict = {'LV2': '1', '_XIGUASTATE': 'XIGUASTATEID=0b8ee74b9b4d442b93a1ccc2fc37952d',
@@ -116,7 +116,12 @@ def get_gzh_para():
 
 def crawl():
     try:
-        LogUtil.log_config(logging.INFO)
+        date_str = datetime.datetime.now().strftime(fmt="%Y-%m-%d")
+        logging.basicConfig(level=logging.DEBUG,
+                            format="%(asctime)s %(filename)s[line: %(lineno)d] %(levelname)s %(message)s",
+                            datefmt="%Y-%m-%d %H:%M:%S",
+                            filename="log/" + date_str + "_log.log",
+                            filemode="a")
         # create the table
         DBUtil.insert_data(create_table_sql)
         DBUtil.insert_data(create_gzh_table_sql)
