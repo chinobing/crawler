@@ -88,3 +88,45 @@
 2017-09-05 22:44:54 Crawler.py[line: 122] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
 2017-09-05 22:44:54 Crawler.py[line: 71] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
 2017-09-05 22:52:41 Crawler.py[line: 130] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:53:30 Crawler.py[line: 130] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:54:04 Crawler.py[line: 130] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:54:38 Crawler.py[line: 130] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 22:54:38 Crawler.py[line: 79] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 22:56:39 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:56:42 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:56:46 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:56:47 Crawler.py[line: 131] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 22:56:47 xin_lang_ke_ji.py[line: 68] ERROR Parse content error. ErrorMsg: time data '2015年06月03日\xa010:54' does not match format '%Y年%m月%d日%H:%M'
+2017-09-05 22:56:47 Crawler.py[line: 80] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 22:57:31 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:57:31 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:57:33 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 22:57:36 Crawler.py[line: 131] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 22:57:36 xin_lang_ke_ji.py[line: 68] ERROR Parse content error. ErrorMsg: time data '2015年06月03日\xa010:54' does not match format '%Y年%m月%d日%H:%M'
+2017-09-05 22:57:36 Crawler.py[line: 80] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 23:01:23 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:01:28 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:01:29 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:01:30 Crawler.py[line: 131] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 23:01:30 xin_lang_ke_ji.py[line: 68] ERROR Parse content error. ErrorMsg: time data '2015年06月03日\xa010:54' does not match format '%Y年%m月%d日%H:%M'
+2017-09-05 23:01:30 Crawler.py[line: 80] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 23:02:53 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:02:53 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:02:54 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:02:56 Crawler.py[line: 131] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 23:02:56 xin_lang_ke_ji.py[line: 68] ERROR Parse content error. ErrorMsg: 'str' object has no attribute 'repalce'
+2017-09-05 23:02:56 Crawler.py[line: 80] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 23:03:10 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:03:10 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:03:13 Crawler.py[line: 131] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:03:35 Crawler.py[line: 137] ERROR Get URL content error. URL = http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml ErrorMsg: HTTPConnectionPool(host='tech.sina.com.cn', port=80): Read timed out.
+2017-09-05 23:03:35 Crawler.py[line: 80] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml
+2017-09-05 23:09:14 Crawler.py[line: 135] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-01&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:09:16 Crawler.py[line: 135] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-02&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:09:17 Crawler.py[line: 135] INFO Get http://roll.news.sina.com.cn/interface/rollnews_ch_out_interface.php?col=365&spec=&type=&date=2015-06-03&ch=05&k=&offset_page=0&offset_num=0&num=60&asc=&page=1 success.
+2017-09-05 23:09:22 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpkk7844763.shtml success.
+2017-09-05 23:09:26 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvqrf3935937.shtml success.
+2017-09-05 23:09:31 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1865407.shtml success.
+2017-09-05 23:09:35 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvpzq1865162.shtml success.
+2017-09-05 23:09:43 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvrak2612040.shtml success.
+2017-09-05 23:09:48 Crawler.py[line: 135] INFO Get http://tech.sina.com.cn/i/2015-06-03/doc-icrvvrak2610159.shtml success.

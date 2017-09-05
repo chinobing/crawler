@@ -4,7 +4,7 @@ import logging
 import requests
 from .database import DBUtil
 import html
-
+import time
 
 class Crawler(object):
 
@@ -69,12 +69,13 @@ class Crawler(object):
                 except:
                     logging.error("Can't decode with utf-8 or gb2312")
                     raise BaseException()
-            self.save_html_file(content=html_content.decode("utf-8"), file_name=file_name)
-            body_content, title, page_view, publish_time = self.parse_html(html_content)
+            self.save_html_file(content=src_content, file_name=file_name)
+            body_content, title, page_view, publish_time = self.parse_html(src_content)
             self.save_content_file(content=body_content, file_name=file_name)
             self.insert_data(url, self.item_path, title,
                              self.relative_path + file_name + ".html",
                              page_view, publish_time)
+            time.sleep(3)
         except BaseException:
             logging.error("Process link failed. URL=%s" % url)
             raise BaseException
@@ -125,13 +126,14 @@ class Crawler(object):
     def get_req(self, link):
         try:
             r = requests.get(link, cookies=self.cookie_dict, timeout=10)
+        except requests.ConnectTimeout:
+            logging.error("Read link connection timeout. URL=%s" % link)
+            raise BaseException()
+        try:
             if not self.cookie_dict:
                 self.cookie_dict = requests.utils.dict_from_cookiejar(r.cookies)
             logging.info("Get %s success." % link)
             return r.content
-        except requests.ConnectTimeout:
-            logging.error("Connection timeout. URL = " + link)
-            raise BaseException()
         except BaseException as e:
             logging.error("Get URL content error. URL = " + link + " ErrorMsg: " + str(e))
             raise BaseException()

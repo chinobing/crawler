@@ -5,7 +5,6 @@ import re
 import logging
 from bs4 import BeautifulSoup
 import datetime
-import time
 
 from customize_website.Crawler import Crawler
 
@@ -48,7 +47,6 @@ class ChuangYe_GunDongXinWen(Crawler):
             link_list = pattern.findall(content)
             for link in link_list:
                 self.get_link_data(link)
-                time.sleep(3)
             date_start += date_dlt
 
     def parse_html(self, content):
@@ -58,7 +56,7 @@ class ChuangYe_GunDongXinWen(Crawler):
             publish_time = bs_obj.find("span", class_="titer")
             if not publish_time:
                 publish_time = bs_obj.find("span", id="pub_date")
-            publish_time = publish_time.get_text()
+            publish_time = publish_time.get_text().replace(u"\xa0", "").replace(" ", "")
             date_format = "%Y年%m月%d日%H:%M"
             publish_time = datetime.datetime.strptime(publish_time, date_format).strftime(self.date_format)
             page_view = 0
