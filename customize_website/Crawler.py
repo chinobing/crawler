@@ -25,6 +25,7 @@ class Crawler(object):
         self.relative_path = None
         self.cookie_dict = {}
         self.date_format = "%Y-%m-%d %H:%M:%S"
+        self.cookie_count = 0
 
     def crawl(self):
         """
@@ -65,9 +66,9 @@ class Crawler(object):
                 src_content = html_content.decode("utf-8")
             except:
                 try:
-                    src_content = html_content.decode("gb2312")
+                    src_content = html_content.decode("gbk")
                 except:
-                    logging.error("Can't decode with utf-8 or gb2312")
+                    logging.error("Can't decode with utf-8 or gbk")
                     raise BaseException()
             self.save_html_file(content=src_content, file_name=file_name)
             body_content, title, page_view, publish_time = self.parse_html(src_content)
@@ -119,13 +120,18 @@ class Crawler(object):
 
     @staticmethod
     def save_file(path, content):
-        f = open(path, "wt")
+        f = open(path, "wt", encoding="utf-8")
         f.writelines(content)
         f.close()
 
     def get_req(self, link):
         try:
-            r = requests.get(link, cookies=self.cookie_dict, timeout=10)
+            if self.cookie_count < 50:
+                r = requests.get(link, cookies=self.cookie_dict, timeout=10)
+            else:
+                r = requests.get(link, timeout=10)
+                self.cookie_count = 0
+                self.cookie_dict = {}
         except requests.ConnectTimeout:
             logging.error("Read link connection timeout. URL=%s" % link)
             raise BaseException()
@@ -137,3 +143,18 @@ class Crawler(object):
         except BaseException as e:
             logging.error("Get URL content error. URL = " + link + " ErrorMsg: " + str(e))
             raise BaseException()
+
+    def save_link(self, link):
+        """
+        先保存链接，后遍历链接再去内容。
+        :return:
+        """
+        if self.match_link(link):
+            self.insert_data(link=link, title="", html_path="",item_path=self.item_path,
+                             page_view=0, publish_time="2000-01-01 00:00:00")
+        else:
+            logging.error("Get link is not this site.")
+            raise BaseException()
+
+    def match_link(self, link):
+        pass

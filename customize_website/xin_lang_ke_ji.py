@@ -5,6 +5,8 @@ import re
 import logging
 from bs4 import BeautifulSoup
 import datetime
+import time
+import chardet
 
 from customize_website.Crawler import Crawler
 
@@ -26,7 +28,7 @@ class ChuangYe_GunDongXinWen(Crawler):
 
     def crawl(self):
         date_format = "%Y-%m-%d"
-        date_start = datetime.datetime.strptime("2015-06-01", date_format)
+        date_start = datetime.datetime.strptime("2015-07-29", date_format)
         date_end = datetime.datetime.now()
         date_dlt = datetime.timedelta(days=1)
         pattern = re.compile("(http://.*?)\"")
@@ -37,16 +39,23 @@ class ChuangYe_GunDongXinWen(Crawler):
             url = self.url.format(date_start.strftime(date_format))
             content_byte = self.get_req(url)
             try:
-                content = content_byte.decode("gb2312")
+                content = content_byte.decode("gbk")
             except:
                 try:
                     content = content_byte.decode("utf-8")
                 except:
-                    logging.error("Can't decode with gb2312 and utf-8")
+                    logging.error("Can't decode with gbk and utf-8")
                     raise BaseException()
+            # code_dict = chardet.detect(content_byte)
+            # try:
+            #     content = content_byte.decode(code_dict["encoding"])
+            # except BaseException as e:
+            #     logging.error("Decode content error. ErrorMsg: %s" % str(e))
+            #     raise BaseException()
             link_list = pattern.findall(content)
             for link in link_list:
                 self.get_link_data(link)
+            time.sleep(3)
             date_start += date_dlt
 
     def parse_html(self, content):
@@ -67,5 +76,11 @@ class ChuangYe_GunDongXinWen(Crawler):
         except BaseException as e:
             logging.error("Parse content error. ErrorMsg: " + str(e))
             raise BaseException()
+
+    def match_link(self, link):
+        if "sina.com" in link:
+            return 1
+        else:
+            return 0
 
 
