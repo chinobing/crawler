@@ -1,0 +1,322 @@
+2017-09-07 21:49:28 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 21:49:29 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 21:49:29 Util.py[line: 16] ERROR Replace \r\n\S failed! ErrorMsg: 'str' object has no attribute 'repalce'
+2017-09-07 21:49:29 feng_huang_chuang_xin.py[line: 54] ERROR Parse HTML error. ErrorMsg: time data '' does not match format '%Y年%m月%d日%H:%M'
+2017-09-07 21:49:29 Crawler.py[line: 81] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 21:49:29 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 21:50:13 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 21:50:13 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 21:50:13 Util.py[line: 16] ERROR Replace \r\n\S failed! ErrorMsg: replace() takes at least 2 arguments (1 given)
+2017-09-07 21:50:13 feng_huang_chuang_xin.py[line: 54] ERROR Parse HTML error. ErrorMsg: time data '' does not match format '%Y年%m月%d日%H:%M'
+2017-09-07 21:50:13 Crawler.py[line: 81] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 21:50:13 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 21:50:28 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 21:50:28 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 21:50:53 Util.py[line: 16] ERROR Replace \r\n\S failed! ErrorMsg: 
+2017-09-07 21:50:53 feng_huang_chuang_xin.py[line: 54] ERROR Parse HTML error. ErrorMsg: time data '' does not match format '%Y年%m月%d日%H:%M'
+2017-09-07 21:50:53 Crawler.py[line: 81] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 21:50:53 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 21:50:58 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 21:50:58 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 21:51:07 feng_huang_chuang_xin.py[line: 46] ERROR Parse HTML error. ErrorMsg: 
+2017-09-07 21:51:07 Crawler.py[line: 74] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 21:51:07 feng_huang_chuang_xin.py[line: 37] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 21:51:30 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 21:51:31 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 21:51:31 Crawler.py[line: 81] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 21:51:31 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:02:38 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:03:11 Crawler.py[line: 141] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 22:04:07 feng_huang_chuang_xin.py[line: 37] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:05:16 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = HTTPConnectionPool(host='innovation.ifeng.com', port=80): Read timed out. (read timeout=10)
+2017-09-07 22:05:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:05:56 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 22:06:10 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:06:26 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:06:31 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 22:06:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:07:16 feng_huang_chuang_xin.py[line: 37] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:07:38 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = HTTPConnectionPool(host='innovation.ifeng.com', port=80): Read timed out. (read timeout=10)
+2017-09-07 22:07:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:09:03 Crawler.py[line: 145] ERROR Get URL content error. URL = http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml ErrorMsg: 
+2017-09-07 22:09:03 Crawler.py[line: 64] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml
+2017-09-07 22:09:03 feng_huang_chuang_xin.py[line: 37] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:09:36 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:09:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800811_0.shtml success.
+2017-09-07 22:11:36 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_06/03/4800810_0.shtml success.
+2017-09-07 22:11:56 feng_huang_chuang_xin.py[line: 37] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:12:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:12:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/25/4800479_0.shtml success.
+2017-09-07 22:12:05 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/24/4800465_0.shtml success.
+2017-09-07 22:12:08 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/18/4800104_0.shtml success.
+2017-09-07 22:12:11 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/18/4800093_0.shtml success.
+2017-09-07 22:12:15 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/18/4800086_0.shtml success.
+2017-09-07 22:12:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/10/4799594_0.shtml success.
+2017-09-07 22:12:22 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/06/4799509_0.shtml success.
+2017-09-07 22:12:25 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/03/4799389_0.shtml success.
+2017-09-07 22:12:28 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/03/4799380_0.shtml success.
+2017-09-07 22:12:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_05/03/4799377_0.shtml success.
+2017-09-07 22:12:35 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/28/4799228_0.shtml success.
+2017-09-07 22:12:38 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/25/4799019_0.shtml success.
+2017-09-07 22:12:42 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/25/4798987_0.shtml success.
+2017-09-07 22:12:45 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/21/4798839_0.shtml success.
+2017-09-07 22:12:48 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/21/4798835_0.shtml success.
+2017-09-07 22:12:52 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/18/4798590_0.shtml success.
+2017-09-07 22:12:55 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/18/4798589_0.shtml success.
+2017-09-07 22:12:58 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/18/4798542_0.shtml success.
+2017-09-07 22:13:02 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/12/4798394_0.shtml success.
+2017-09-07 22:13:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/12/4798392_0.shtml success.
+2017-09-07 22:13:09 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/12/4798389_0.shtml success.
+2017-09-07 22:13:12 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/12/4798363_0.shtml success.
+2017-09-07 22:13:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_04/12/4798362_0.shtml success.
+2017-09-07 22:13:19 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/29/4797660_0.shtml success.
+2017-09-07 22:13:22 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/29/4797650_0.shtml success.
+2017-09-07 22:13:25 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/29/4797616_0.shtml success.
+2017-09-07 22:13:29 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/23/4794184_0.shtml success.
+2017-09-07 22:13:32 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/23/4794057_0.shtml success.
+2017-09-07 22:13:35 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/23/4793917_0.shtml success.
+2017-09-07 22:13:39 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/22/4793651_0.shtml success.
+2017-09-07 22:13:42 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/21/4792860_0.shtml success.
+2017-09-07 22:13:45 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/18/4792207_0.shtml success.
+2017-09-07 22:13:49 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/18/4792189_0.shtml success.
+2017-09-07 22:13:52 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/16/4790595_0.shtml success.
+2017-09-07 22:13:55 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/16/4790579_0.shtml success.
+2017-09-07 22:13:59 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/16/4790367_0.shtml success.
+2017-09-07 22:14:04 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/14/4788717_0.shtml success.
+2017-09-07 22:14:08 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/14/4788659_0.shtml success.
+2017-09-07 22:14:11 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/14/4788628_0.shtml success.
+2017-09-07 22:14:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/14/4788552_0.shtml success.
+2017-09-07 22:14:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/11/4786885_0.shtml success.
+2017-09-07 22:14:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/11/4786878_0.shtml success.
+2017-09-07 22:14:24 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/09/4785646_0.shtml success.
+2017-09-07 22:14:28 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/09/4785585_0.shtml success.
+2017-09-07 22:14:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/09/4785496_0.shtml success.
+2017-09-07 22:14:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/07/4783921_0.shtml success.
+2017-09-07 22:14:38 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/07/4783895_0.shtml success.
+2017-09-07 22:14:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/07/4783876_0.shtml success.
+2017-09-07 22:14:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:14:44 feng_huang_chuang_xin.py[line: 54] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'find'
+2017-09-07 22:14:44 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml
+2017-09-07 22:14:44 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml, errormsg = 
+2017-09-07 22:15:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/2.shtml success.
+2017-09-07 22:15:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/04/4782339_0.shtml success.
+2017-09-07 22:15:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/01/4779625_0.shtml success.
+2017-09-07 22:15:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/01/4779486_0.shtml success.
+2017-09-07 22:15:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/01/4778818_0.shtml success.
+2017-09-07 22:15:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_03/01/4778817_0.shtml success.
+2017-09-07 22:15:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/29/4778066_0.shtml success.
+2017-09-07 22:15:54 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/29/4777988_0.shtml success.
+2017-09-07 22:15:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/29/4777966_0.shtml success.
+2017-09-07 22:16:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/25/4774617_0.shtml success.
+2017-09-07 22:16:08 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/25/4774599_0.shtml success.
+2017-09-07 22:16:12 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_02/25/4774586_0.shtml success.
+2017-09-07 22:16:15 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_01/25/4756132_0.shtml success.
+2017-09-07 22:16:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_01/25/4755949_0.shtml success.
+2017-09-07 22:16:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_01/22/4753549_0.shtml success.
+2017-09-07 22:16:25 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2016_01/15/4744121_0.shtml success.
+2017-09-07 22:16:28 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/25/4698016_0.shtml success.
+2017-09-07 22:16:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/16/4665028_0.shtml success.
+2017-09-07 22:16:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/15/4660155_0.shtml success.
+2017-09-07 22:16:38 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/11/4650004_0.shtml success.
+2017-09-07 22:16:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/10/4645721_0.shtml success.
+2017-09-07 22:16:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_12/02/4617235_0.shtml success.
+2017-09-07 22:16:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_11/04/4521955_0.shtml success.
+2017-09-07 22:16:51 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/28/4495797_0.shtml success.
+2017-09-07 22:16:54 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/23/4477532_0.shtml success.
+2017-09-07 22:16:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/22/4473548_0.shtml success.
+2017-09-07 22:17:01 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/22/4472817_0.shtml success.
+2017-09-07 22:17:04 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/16/4454625_0.shtml success.
+2017-09-07 22:17:07 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/15/4449950_0.shtml success.
+2017-09-07 22:17:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/15/4447944_0.shtml success.
+2017-09-07 22:17:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/13/4440122_0.shtml success.
+2017-09-07 22:17:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_10/09/4427149_0.shtml success.
+2017-09-07 22:17:20 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/30/4411884_0.shtml success.
+2017-09-07 22:17:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/24/4386767_0.shtml success.
+2017-09-07 22:17:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/21/4368746_0.shtml success.
+2017-09-07 22:17:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/21/4368707_0.shtml success.
+2017-09-07 22:17:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/17/4357389_0.shtml success.
+2017-09-07 22:17:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/16/4353412_0.shtml success.
+2017-09-07 22:17:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/09/4328389_0.shtml success.
+2017-09-07 22:17:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/08/4325757_0.shtml success.
+2017-09-07 22:17:46 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_09/07/4320249_0.shtml success.
+2017-09-07 22:17:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/25/4275464_0.shtml success.
+2017-09-07 22:17:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/24/4267676_0.shtml success.
+2017-09-07 22:17:56 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/20/4255513_0.shtml success.
+2017-09-07 22:18:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/11/4218022_0.shtml success.
+2017-09-07 22:18:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/10/4210645_0.shtml success.
+2017-09-07 22:18:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/06/4199821_0.shtml success.
+2017-09-07 22:18:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/03/4184634_0.shtml success.
+2017-09-07 22:18:13 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/03/4184625_0.shtml success.
+2017-09-07 22:18:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/03/4184600_0.shtml success.
+2017-09-07 22:18:19 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_08/03/4184546_0.shtml success.
+2017-09-07 22:18:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/1.shtml success.
+2017-09-07 22:18:23 feng_huang_chuang_xin.py[line: 54] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'find'
+2017-09-07 22:18:23 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/list_0/1.shtml
+2017-09-07 22:18:23 feng_huang_chuang_xin.py[line: 40] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/2.shtml, errormsg = 
+2017-09-07 22:22:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/3.shtml success.
+2017-09-07 22:22:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/20/4130081_0.shtml success.
+2017-09-07 22:22:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/13/4102232_0.shtml success.
+2017-09-07 22:22:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/09/4091389_0.shtml success.
+2017-09-07 22:22:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/09/4091338_0.shtml success.
+2017-09-07 22:22:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/07/4083049_0.shtml success.
+2017-09-07 22:22:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/06/4080251_0.shtml success.
+2017-09-07 22:22:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/06/4077766_0.shtml success.
+2017-09-07 22:22:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/02/4067391_0.shtml success.
+2017-09-07 22:22:54 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/01/4064767_0.shtml success.
+2017-09-07 22:22:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/01/4063352_0.shtml success.
+2017-09-07 22:23:01 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/01/4063296_0.shtml success.
+2017-09-07 22:23:04 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/01/4063184_0.shtml success.
+2017-09-07 22:23:08 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_07/01/4063171_0.shtml success.
+2017-09-07 22:23:11 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/25/4043526_0.shtml success.
+2017-09-07 22:23:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/25/4043080_0.shtml success.
+2017-09-07 22:23:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/25/4042873_0.shtml success.
+2017-09-07 22:23:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/17/4018490_0.shtml success.
+2017-09-07 22:23:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/17/4018464_0.shtml success.
+2017-09-07 22:23:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/16/4012174_0.shtml success.
+2017-09-07 22:23:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/16/4012170_0.shtml success.
+2017-09-07 22:23:36 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/16/4012169_0.shtml success.
+2017-09-07 22:23:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/16/4012168_0.shtml success.
+2017-09-07 22:23:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/08/3982052_0.shtml success.
+2017-09-07 22:23:46 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/08/3981390_0.shtml success.
+2017-09-07 22:23:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/05/3976761_0.shtml success.
+2017-09-07 22:23:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/05/3976750_0.shtml success.
+2017-09-07 22:23:56 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_06/05/3976708_0.shtml success.
+2017-09-07 22:23:59 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_05/29/3950548_0.shtml success.
+2017-09-07 22:24:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_05/29/3950478_0.shtml success.
+2017-09-07 22:24:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_05/25/3934135_0.shtml success.
+2017-09-07 22:24:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_05/25/3934130_0.shtml success.
+2017-09-07 22:24:13 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_05/14/3897449_0.shtml success.
+2017-09-07 22:24:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_04/23/3817164_0.shtml success.
+2017-09-07 22:24:20 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_04/23/3817163_0.shtml success.
+2017-09-07 22:24:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_04/23/3817162_0.shtml success.
+2017-09-07 22:24:26 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2015_01/06/3386911_0.shtml success.
+2017-09-07 22:24:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/17/3301800_0.shtml success.
+2017-09-07 22:24:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/17/3298061_0.shtml success.
+2017-09-07 22:24:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/17/3298060_0.shtml success.
+2017-09-07 22:24:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/17/3298059_0.shtml success.
+2017-09-07 22:24:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/11/3277933_0.shtml success.
+2017-09-07 22:24:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/11/3277914_0.shtml success.
+2017-09-07 22:24:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/11/3277889_0.shtml success.
+2017-09-07 22:24:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/10/3272258_0.shtml success.
+2017-09-07 22:24:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/10/3272251_0.shtml success.
+2017-09-07 22:25:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/10/3272246_0.shtml success.
+2017-09-07 22:25:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/03/3240173_0.shtml success.
+2017-09-07 22:25:07 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_12/03/3240185_0.shtml success.
+2017-09-07 22:25:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/19/3168838_0.shtml success.
+2017-09-07 22:25:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/29/3078010_0.shtml success.
+2017-09-07 22:25:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/4.shtml success.
+2017-09-07 22:25:18 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142532_0.shtml success.
+2017-09-07 22:25:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142517_0.shtml success.
+2017-09-07 22:25:24 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142491_0.shtml success.
+2017-09-07 22:25:28 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142365_0.shtml success.
+2017-09-07 22:25:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142575_0.shtml success.
+2017-09-07 22:25:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/12/3142546_0.shtml success.
+2017-09-07 22:25:38 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/07/3121363_0.shtml success.
+2017-09-07 22:25:41 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/06/3116852_0.shtml success.
+2017-09-07 22:25:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/06/3116808_0.shtml success.
+2017-09-07 22:25:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3111798_0.shtml success.
+2017-09-07 22:25:51 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3111671_0.shtml success.
+2017-09-07 22:25:54 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3111654_0.shtml success.
+2017-09-07 22:25:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3110904_0.shtml success.
+2017-09-07 22:26:01 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3110627_0.shtml success.
+2017-09-07 22:26:04 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3110983_0.shtml success.
+2017-09-07 22:26:07 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_11/05/3110950_0.shtml success.
+2017-09-07 22:26:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/31/3091732_0.shtml success.
+2017-09-07 22:26:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/28/3072492_0.shtml success.
+2017-09-07 22:26:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/28/3072283_0.shtml success.
+2017-09-07 22:26:20 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/28/3072120_0.shtml success.
+2017-09-07 22:26:24 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/23/3055853_0.shtml success.
+2017-09-07 22:26:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/20/3038768_0.shtml success.
+2017-09-07 22:26:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/20/3037264_0.shtml success.
+2017-09-07 22:26:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/15/3020261_0.shtml success.
+2017-09-07 22:26:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/15/3020241_0.shtml success.
+2017-09-07 22:26:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_10/15/3020228_0.shtml success.
+2017-09-07 22:26:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/29/2972150_0.shtml success.
+2017-09-07 22:26:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/29/2971494_0.shtml success.
+2017-09-07 22:26:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2962099_0.shtml success.
+2017-09-07 22:26:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2962052_0.shtml success.
+2017-09-07 22:26:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2961381_0.shtml success.
+2017-09-07 22:27:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2961299_0.shtml success.
+2017-09-07 22:27:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2961352_0.shtml success.
+2017-09-07 22:27:09 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2961330_0.shtml success.
+2017-09-07 22:27:12 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2960258_0.shtml success.
+2017-09-07 22:27:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2960156_0.shtml success.
+2017-09-07 22:27:19 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2960169_0.shtml success.
+2017-09-07 22:27:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2960142_0.shtml success.
+2017-09-07 22:27:26 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2959578_0.shtml success.
+2017-09-07 22:27:29 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/26/2959837_0.shtml success.
+2017-09-07 22:27:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/16/2917987_0.shtml success.
+2017-09-07 22:27:36 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/15/2914705_0.shtml success.
+2017-09-07 22:27:39 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/15/2913231_0.shtml success.
+2017-09-07 22:27:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/11/2900497_0.shtml success.
+2017-09-07 22:27:46 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/11/2900480_0.shtml success.
+2017-09-07 22:27:49 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/11/2900456_0.shtml success.
+2017-09-07 22:27:52 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891333_0.shtml success.
+2017-09-07 22:27:56 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891326_0.shtml success.
+2017-09-07 22:27:59 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891299_0.shtml success.
+2017-09-07 22:27:59 feng_huang_chuang_xin.py[line: 56] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'find'
+2017-09-07 22:27:59 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891299_0.shtml
+2017-09-07 22:27:59 feng_huang_chuang_xin.py[line: 42] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/4.shtml, errormsg = 
+2017-09-07 22:37:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/4.shtml success.
+2017-09-07 22:37:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891299_0.shtml success.
+2017-09-07 22:37:17 feng_huang_chuang_xin.py[line: 59] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'find'
+2017-09-07 22:37:17 Crawler.py[line: 82] ERROR Process link failed. URL=http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891299_0.shtml
+2017-09-07 22:37:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891270_0.shtml success.
+2017-09-07 22:37:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/5.shtml success.
+2017-09-07 22:37:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_09/09/2891283_0.shtml success.
+2017-09-07 22:37:24 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/28/2843642_0.shtml success.
+2017-09-07 22:37:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/28/2843545_0.shtml success.
+2017-09-07 22:37:31 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/28/2843685_0.shtml success.
+2017-09-07 22:37:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/28/2843667_0.shtml success.
+2017-09-07 22:37:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/27/2836263_0.shtml success.
+2017-09-07 22:37:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/27/2836069_0.shtml success.
+2017-09-07 22:37:44 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/25/2822690_0.shtml success.
+2017-09-07 22:37:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/18/2782709_0.shtml success.
+2017-09-07 22:37:51 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/18/2782657_0.shtml success.
+2017-09-07 22:37:54 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2751968_0.shtml success.
+2017-09-07 22:37:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2751942_0.shtml success.
+2017-09-07 22:38:04 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2751912_0.shtml success.
+2017-09-07 22:38:07 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750488_0.shtml success.
+2017-09-07 22:38:11 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750291_0.shtml success.
+2017-09-07 22:38:14 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750286_0.shtml success.
+2017-09-07 22:38:17 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750284_0.shtml success.
+2017-09-07 22:38:21 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750282_0.shtml success.
+2017-09-07 22:38:24 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/12/2750289_0.shtml success.
+2017-09-07 22:38:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/11/2742775_0.shtml success.
+2017-09-07 22:38:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/07/2725580_0.shtml success.
+2017-09-07 22:38:34 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_08/07/2725891_0.shtml success.
+2017-09-07 22:38:37 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/22/2635919_0.shtml success.
+2017-09-07 22:38:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/21/2627292_0.shtml success.
+2017-09-07 22:38:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/21/2627209_0.shtml success.
+2017-09-07 22:38:47 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/21/2627090_0.shtml success.
+2017-09-07 22:38:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/17/2612945_0.shtml success.
+2017-09-07 22:38:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/17/2612815_0.shtml success.
+2017-09-07 22:38:57 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/17/2612800_0.shtml success.
+2017-09-07 22:39:00 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/17/2612778_0.shtml success.
+2017-09-07 22:39:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/17/2612737_0.shtml success.
+2017-09-07 22:39:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/14/2590650_0.shtml success.
+2017-09-07 22:39:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/14/2589326_0.shtml success.
+2017-09-07 22:39:13 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/08/2559555_0.shtml success.
+2017-09-07 22:39:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/07/2552404_0.shtml success.
+2017-09-07 22:39:20 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/07/2552496_0.shtml success.
+2017-09-07 22:39:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_07/07/2551814_0.shtml success.
+2017-09-07 22:39:27 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/26/2497589_0.shtml success.
+2017-09-07 22:39:30 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/26/2497327_0.shtml success.
+2017-09-07 22:39:33 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/16/2437741_0.shtml success.
+2017-09-07 22:39:36 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/12/2421642_0.shtml success.
+2017-09-07 22:39:40 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/12/2421331_0.shtml success.
+2017-09-07 22:39:43 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/12/2421299_0.shtml success.
+2017-09-07 22:39:46 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/12/2421265_0.shtml success.
+2017-09-07 22:39:50 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2014_06/12/2421347_0.shtml success.
+2017-09-07 22:39:53 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_12/26/1650458_0.shtml success.
+2017-09-07 22:39:56 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_12/26/1650010_0.shtml success.
+2017-09-07 22:39:59 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_12/25/1641421_0.shtml success.
+2017-09-07 22:40:03 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_12/04/1546660_0.shtml success.
+2017-09-07 22:40:06 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_11/28/1523914_0.shtml success.
+2017-09-07 22:40:09 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/6.shtml success.
+2017-09-07 22:40:10 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_11/08/1437732_0.shtml success.
+2017-09-07 22:40:13 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_10/28/1383085_0.shtml success.
+2017-09-07 22:40:16 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_09/27/1273968_0.shtml success.
+2017-09-07 22:40:20 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/detail_2013_06/30/946257_0.shtml success.
+2017-09-07 22:40:23 Crawler.py[line: 142] INFO Get http://innovation.ifeng.com/discovery2014/list_0/7.shtml success.
+2017-09-07 22:40:23 feng_huang_chuang_xin.py[line: 45] ERROR Get link error. URL=http://innovation.ifeng.com/discovery2014/list_0/7.shtml, errormsg = 'NoneType' object has no attribute 'findAll'

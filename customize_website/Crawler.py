@@ -5,6 +5,7 @@ import requests
 from .database import DBUtil
 import html
 import time
+import html
 
 class Crawler(object):
 
@@ -73,7 +74,7 @@ class Crawler(object):
             self.save_html_file(content=src_content, file_name=file_name)
             body_content, title, page_view, publish_time = self.parse_html(src_content)
             self.save_content_file(content=body_content, file_name=file_name)
-            self.insert_data(url, self.item_path, title,
+            self.insert_data(url, self.item_path, html.escape(title),
                              self.relative_path + file_name + ".html",
                              page_view, publish_time)
             time.sleep(3)

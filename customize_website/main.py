@@ -1,6 +1,7 @@
 import logging
 import datetime
 from customize_website import xin_lang_ke_ji
+from customize_website import feng_huang_chuang_xin
 from customize_website.database import DBUtil
 
 def main():
@@ -14,8 +15,8 @@ def main():
                         # filemode="a",
                         handlers=[terminal_handler, file_handler])
     DBUtil.create_table()
-    xin_lang_ke_ji.main()
-
+    # xin_lang_ke_ji.main()
+    feng_huang_chuang_xin.main()
 
 if __name__ == "__main__":
     main()

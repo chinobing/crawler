@@ -1,12 +1,10 @@
 # coding=utf-8
 
-import datetime
 import re
 import logging
 from bs4 import BeautifulSoup
 import datetime
 import time
-import chardet
 
 from customize_website.Crawler import Crawler
 
