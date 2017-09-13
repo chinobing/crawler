@@ -1,3 +1,5 @@
+
+# 每篇文章保存到数据库中,表结构如下
 CREATE TABLE IF NOT EXISTS article_link(
   id INT PRIMARY KEY AUTO_INCREMENT,
   link varchar(500) NOT NULL,

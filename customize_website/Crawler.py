@@ -6,6 +6,9 @@ from .database import DBUtil
 import html
 import time
 import html
+from selenium import webdriver
+from copy import deepcopy
+
 
 class Crawler(object):
 
@@ -15,6 +18,14 @@ class Crawler(object):
     insert_sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
                         " page_view, publish_time) VALUES(\"{}\", \"{}\", \"{}\", \"{}\"," \
                         "{}, \"{}\")"
+    cookie_dict = {
+        "name": None,
+        "value": None,
+        "domain": None,
+        "path": "/",
+        # "expire": None
+    }
+
     """
     针对每个网站的每个栏目,都需要继承这个类.
     此类抽象了整个过程,实现每个方法就可以了.
@@ -77,9 +88,9 @@ class Crawler(object):
             self.insert_data(url, self.item_path, html.escape(title),
                              self.relative_path + file_name + ".html",
                              page_view, publish_time)
-            time.sleep(3)
-        except BaseException:
-            logging.error("Process link failed. URL=%s" % url)
+            # time.sleep(0.5)
+        except BaseException as e:
+            logging.error("Process link failed. URL=%s, ErrorMsg: %s" % (url, str(e)))
             raise BaseException
 
     @staticmethod
@@ -159,3 +170,23 @@ class Crawler(object):
 
     def match_link(self, link):
         pass
+
+    def use_phantom_get_req(self, url, domain):
+        try:
+            driver = webdriver.PhantomJS(
+                executable_path='/home/jfq/software/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+            keys = self.cookie_dict.keys()
+            for key in keys:
+                cookie_dict_ins = deepcopy(Crawler.cookie_dict)
+                cookie_dict_ins['name'] = key
+                cookie_dict_ins['value'] = self.cookie_dict[key]
+                cookie_dict_ins['domain'] = domain
+                driver.add_cookie(cookie_dict_ins)
+            driver.get(url)
+            # 等待特定数据出现
+            # driver.implicitly_wait(10)
+            return driver.page_source
+        except BaseException as e:
+            logging.error("Get link error. ErrorMsg: %s" % str(e))
+        finally:
+            driver.quit()

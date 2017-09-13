@@ -41,10 +41,16 @@ insert_gzh_sql_format = "INSERT INTO xi_gua_gzh_link(link) VALUES(\"{}\")"
 
 select_gzh_sql_format = "SELECT * FROM xi_gua_gzh_link WHERE link = \"{}\""
 
-insert_sql_format = "INSERT INTO article_link(biz, link, title, page_view, thumb_number) " \
+insert_sql_format = "INSERT INTO article(biz, link, title, page_view, thumb_number) " \
              "VALUES(\"{}\", \"{}\", \"{}\", {}, {})"
 
-select_sql_format = "SELECT * FROM article_link WHERE link = \"{}\""
+select_sql_format = "SELECT * FROM article WHERE link = \"{}\""
+
+select_biz_sql_format = "SELECT * FROM article_wechat_map WHERE wechat = \"{}\""   # 根据公众号的名称查询
+
+insert_biz_sql_format = "INSERT INTO article_wechat_map(biz, wechat) VALUES(\"{}\", \"{}\")"
+
+wechat = None   # 公众号的名称
 
 
 def get_cookie_dict():
@@ -170,7 +176,7 @@ def parse(content):
     biz_pattern = re.compile(r'_biz=(.*?)&')
     for i in range(len(link_list)):
         link = html.unescape(link_list[i][0])
-        biz = biz_pattern.findall(link)[0]
+        biz = biz_pattern.findall(link)[0]    # 对biz进行查询与插入新的映射.
         # 注意对title都进行了转义，去掉其中的引号影响。
         title = html.escape(link_list[i][1])
         try:

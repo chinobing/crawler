@@ -1,8 +1,9 @@
-import logging
 import datetime
-from customize_website import xin_lang_ke_ji
-from customize_website import feng_huang_chuang_xin
+import logging
+
+from customize_website.company import run
 from customize_website.database import DBUtil
+
 
 def main():
     date_str = datetime.datetime.now().strftime("%Y-%m-%d")
@@ -16,8 +17,10 @@ def main():
                         handlers=[terminal_handler, file_handler])
     DBUtil.create_table()
     # xin_lang_ke_ji.main()
-    feng_huang_chuang_xin.main()
+    run.main()
 
 if __name__ == "__main__":
-    main()
-
+    try:
+        main()
+    finally:
+        DBUtil.close_conn()    # 最后一定要关闭资源.

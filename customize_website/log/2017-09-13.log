@@ -1,0 +1,147 @@
+2017-09-13 20:45:16 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 20:48:07 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 20:48:07 pin_wan.py[line: 58] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'get_text'
+2017-09-13 20:48:07 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/pgone-gai, ErrorMsg: 
+2017-09-13 20:48:09 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 20:48:09 pin_wan.py[line: 58] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'get_text'
+2017-09-13 20:48:09 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/pgone-gai, ErrorMsg: 
+2017-09-13 20:49:16 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 20:49:26 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 20:49:52 Crawler.py[line: 86] ERROR Process link failed. URL=http://www.pingwest.com/pgone-gai, ErrorMsg: 
+2017-09-13 20:49:53 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 20:49:53 pin_wan.py[line: 58] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'get_text'
+2017-09-13 20:49:53 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/christopher-nolan, ErrorMsg: 
+2017-09-13 20:49:53 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 20:49:54 pin_wan.py[line: 58] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'get_text'
+2017-09-13 20:49:54 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/tangxiaoou-2017-08, ErrorMsg: 
+2017-09-13 20:59:00 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 20:59:03 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:00:40 Crawler.py[line: 86] ERROR Process link failed. URL=http://www.pingwest.com/pgone-gai, ErrorMsg: 
+2017-09-13 21:00:41 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:00:41 pin_wan.py[line: 67] ERROR Parse HTML error. ErrorMsg: 'NoneType' object has no attribute 'findAll'
+2017-09-13 21:00:41 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/christopher-nolan, ErrorMsg: 
+2017-09-13 21:05:01 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:05:02 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:05:32 pin_wan.py[line: 44] ERROR Get link error. URL=http://www.pingwest.com/category/figure/, errormsg = 
+2017-09-13 21:05:40 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:05:41 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:05:43 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:05:45 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:05:47 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:05:49 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:05:51 Crawler.py[line: 153] INFO Get http://www.pingwest.com/guojingming success.
+2017-09-13 21:05:52 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:05:55 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:05:56 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:05:59 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:06:00 Crawler.py[line: 153] INFO Get http://www.pingwest.com/zhuxiaohushengyi success.
+2017-09-13 21:06:02 Crawler.py[line: 153] INFO Get http://www.pingwest.com/andrew-ng-interview-2017-teacher-deep-learning success.
+2017-09-13 21:06:03 Crawler.py[line: 153] INFO Get http://www.pingwest.com/sunshine-girl success.
+2017-09-13 21:06:05 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wang-gao-fei-2017 success.
+2017-09-13 21:06:07 Crawler.py[line: 153] INFO Get http://www.pingwest.com/game-pal success.
+2017-09-13 21:06:09 Crawler.py[line: 153] INFO Get http://www.pingwest.com/hiphop-singers success.
+2017-09-13 21:06:11 Crawler.py[line: 153] INFO Get http://www.pingwest.com/player-story success.
+2017-09-13 21:06:13 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wu-qing-you success.
+2017-09-13 21:06:14 Crawler.py[line: 153] INFO Get http://www.pingwest.com/the-big-boss-behind-hongbin-sun success.
+2017-09-13 21:06:16 Crawler.py[line: 153] INFO Get http://www.pingwest.com/liuchuanzhi-sunhongbin success.
+2017-09-13 21:06:17 Crawler.py[line: 153] INFO Get http://www.pingwest.com/chuangye-shipin-gaoyousi success.
+2017-09-13 21:06:18 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:06:20 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:06:21 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:06:22 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:06:24 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:06:25 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:06:27 Crawler.py[line: 153] INFO Get http://www.pingwest.com/guojingming success.
+2017-09-13 21:06:28 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:06:29 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:06:31 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:06:32 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:06:34 Crawler.py[line: 153] INFO Get http://www.pingwest.com/zhuxiaohushengyi success.
+2017-09-13 21:06:35 Crawler.py[line: 153] INFO Get http://www.pingwest.com/andrew-ng-interview-2017-teacher-deep-learning success.
+2017-09-13 21:06:37 Crawler.py[line: 153] INFO Get http://www.pingwest.com/sunshine-girl success.
+2017-09-13 21:06:38 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wang-gao-fei-2017 success.
+2017-09-13 21:06:40 Crawler.py[line: 153] INFO Get http://www.pingwest.com/game-pal success.
+2017-09-13 21:06:41 Crawler.py[line: 153] INFO Get http://www.pingwest.com/hiphop-singers success.
+2017-09-13 21:06:42 Crawler.py[line: 153] INFO Get http://www.pingwest.com/player-story success.
+2017-09-13 21:06:44 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wu-qing-you success.
+2017-09-13 21:06:45 Crawler.py[line: 153] INFO Get http://www.pingwest.com/the-big-boss-behind-hongbin-sun success.
+2017-09-13 21:06:46 Crawler.py[line: 153] INFO Get http://www.pingwest.com/liuchuanzhi-sunhongbin success.
+2017-09-13 21:06:48 Crawler.py[line: 153] INFO Get http://www.pingwest.com/chuangye-shipin-gaoyousi success.
+2017-09-13 21:06:48 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:06:49 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:06:51 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:06:52 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:06:53 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:06:54 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:06:55 Crawler.py[line: 153] INFO Get http://www.pingwest.com/guojingming success.
+2017-09-13 21:06:59 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:07:01 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:07:02 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:07:04 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:07:05 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/zhuxiaohushengyi, ErrorMsg: 
+2017-09-13 21:07:06 Crawler.py[line: 153] INFO Get http://www.pingwest.com/andrew-ng-interview-2017-teacher-deep-learning success.
+2017-09-13 21:07:07 Crawler.py[line: 153] INFO Get http://www.pingwest.com/sunshine-girl success.
+2017-09-13 21:07:08 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wang-gao-fei-2017 success.
+2017-09-13 21:08:15 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:08:16 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:08:17 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:08:18 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:08:19 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:08:22 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:08:23 Crawler.py[line: 153] INFO Get http://www.pingwest.com/guojingming success.
+2017-09-13 21:08:23 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:08:25 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:08:26 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:08:27 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:08:28 Crawler.py[line: 153] INFO Get http://www.pingwest.com/zhuxiaohushengyi success.
+2017-09-13 21:08:29 Crawler.py[line: 153] INFO Get http://www.pingwest.com/andrew-ng-interview-2017-teacher-deep-learning success.
+2017-09-13 21:08:31 Crawler.py[line: 153] INFO Get http://www.pingwest.com/sunshine-girl success.
+2017-09-13 21:08:32 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wang-gao-fei-2017 success.
+2017-09-13 21:08:33 Crawler.py[line: 153] INFO Get http://www.pingwest.com/game-pal success.
+2017-09-13 21:08:34 Crawler.py[line: 153] INFO Get http://www.pingwest.com/hiphop-singers success.
+2017-09-13 21:08:36 Crawler.py[line: 153] INFO Get http://www.pingwest.com/player-story success.
+2017-09-13 21:08:37 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wu-qing-you success.
+2017-09-13 21:08:39 Crawler.py[line: 153] INFO Get http://www.pingwest.com/the-big-boss-behind-hongbin-sun success.
+2017-09-13 21:08:40 Crawler.py[line: 153] INFO Get http://www.pingwest.com/liuchuanzhi-sunhongbin success.
+2017-09-13 21:08:42 Crawler.py[line: 153] INFO Get http://www.pingwest.com/chuangye-shipin-gaoyousi success.
+2017-09-13 21:09:01 pin_wan.py[line: 44] ERROR Get link error. URL=http://www.pingwest.com/category/figure/, errormsg = 
+2017-09-13 21:09:48 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:12:54 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/pgone-gai/, ErrorMsg: 
+2017-09-13 21:13:21 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:13:33 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:13:42 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:13:43 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:13:45 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:13:46 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:13:48 Crawler.py[line: 153] INFO Get http://www.pingwest.com/guojingming success.
+2017-09-13 21:13:50 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:13:51 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:13:53 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:13:55 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:13:57 Crawler.py[line: 153] INFO Get http://www.pingwest.com/zhuxiaohushengyi success.
+2017-09-13 21:13:59 Crawler.py[line: 153] INFO Get http://www.pingwest.com/andrew-ng-interview-2017-teacher-deep-learning success.
+2017-09-13 21:14:01 Crawler.py[line: 153] INFO Get http://www.pingwest.com/sunshine-girl success.
+2017-09-13 21:14:02 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wang-gao-fei-2017 success.
+2017-09-13 21:14:04 Crawler.py[line: 153] INFO Get http://www.pingwest.com/game-pal success.
+2017-09-13 21:14:05 Crawler.py[line: 153] INFO Get http://www.pingwest.com/hiphop-singers success.
+2017-09-13 21:14:07 Crawler.py[line: 153] INFO Get http://www.pingwest.com/player-story success.
+2017-09-13 21:14:09 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wu-qing-you success.
+2017-09-13 21:14:10 Crawler.py[line: 153] INFO Get http://www.pingwest.com/the-big-boss-behind-hongbin-sun success.
+2017-09-13 21:14:12 Crawler.py[line: 153] INFO Get http://www.pingwest.com/liuchuanzhi-sunhongbin success.
+2017-09-13 21:14:14 Crawler.py[line: 153] INFO Get http://www.pingwest.com/chuangye-shipin-gaoyousi success.
+2017-09-13 21:14:21 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/page/2/ success.
+2017-09-13 21:14:36 Crawler.py[line: 153] INFO Get http://www.pingwest.com/jenny-lee-ggv-ai-investment success.
+2017-09-13 21:14:38 Crawler.py[line: 153] INFO Get http://www.pingwest.com/ceo-pete-lau-says-2018-will-witness-succeed-of-oneplus success.
+2017-09-13 21:14:39 Crawler.py[line: 153] INFO Get http://www.pingwest.com/jack-ma-on-alibaba-becoming-a-new-economy success.
+2017-09-13 21:14:52 Crawler.py[line: 153] INFO Get http://www.pingwest.com/category/figure/ success.
+2017-09-13 21:14:52 Crawler.py[line: 153] INFO Get http://www.pingwest.com/pgone-gai success.
+2017-09-13 21:14:53 Crawler.py[line: 153] INFO Get http://www.pingwest.com/christopher-nolan success.
+2017-09-13 21:14:54 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tangxiaoou-2017-08 success.
+2017-09-13 21:14:54 Crawler.py[line: 153] INFO Get http://www.pingwest.com/wangzherongyao-zhubo success.
+2017-09-13 21:14:55 Crawler.py[line: 153] INFO Get http://www.pingwest.com/kris-wu-diss-nba-ray-allen success.
+2017-09-13 21:14:56 Crawler.py[line: 93] ERROR Process link failed. URL=http://www.pingwest.com/guojingming, ErrorMsg: 
+2017-09-13 21:14:56 Crawler.py[line: 153] INFO Get http://www.pingwest.com/shouyou3 success.
+2017-09-13 21:14:57 Crawler.py[line: 153] INFO Get http://www.pingwest.com/didi-yu-jun success.
+2017-09-13 21:14:58 Crawler.py[line: 153] INFO Get http://www.pingwest.com/gangrenboqi success.
+2017-09-13 21:14:59 Crawler.py[line: 153] INFO Get http://www.pingwest.com/tianyiyanjiuyuan success.
+2017-09-13 21:15:00 Crawler.py[line: 153] INFO Get http://www.pingwest.com/zhuxiaohushengyi success.

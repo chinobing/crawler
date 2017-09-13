@@ -77,4 +77,19 @@ class DBUtil(object):
     @staticmethod
     def close_conn():
         if DBUtil.con:
-            DBUtil.con.close()
+            try:
+                DBUtil.con.close()
+            except BaseException as e:
+                logging.error("Close SQL connection error. ErrorMsg: %s" % str(e))
+
+    @staticmethod
+    def select_then_insert(select_sql, insert_sql):
+        """
+        很多数据库插入先要进行查询操作,如果不在数据库中,则插入数据
+        :param select_sql: 
+        :param insert_sql: 
+        :return: 
+        """
+        result = DBUtil.select_data(sql=select_sql)
+        if result:
+            DBUtil.insert_data(insert_sql)

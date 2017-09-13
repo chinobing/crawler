@@ -15,9 +15,15 @@ CREATE TABLE IF NOT EXISTS article(
   html_path VARCHAR(300)
 );
 
-
+# 公众号与文章biz的映射表,手工收录数据或者在西瓜助手上收集数据时插入
 CREATE TABLE IF NOT EXISTS article_wechat_map(
   id INT PRIMARY KEY  AUTO_INCREMENT,
   biz VARCHAR(100),
-  wechat VARCHAR(100)
+  wechat VARCHAR(100)        # 公众号的名称, 注意是微信上显示出来的标准名称
+);
+
+# 此表为测试用的,主要是对测试时已经访问过的公众号不再访问.
+CREATE TABLE IF NOT EXISTS xi_gua_gzh_link(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  link VARCHAR(300)
 );

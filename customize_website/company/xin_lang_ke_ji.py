@@ -9,9 +9,10 @@ import time
 from customize_website.Crawler import Crawler
 
 
-def main():
-    gdxn = ChuangYe_GunDongXinWen()
-    gdxn.crawl()
+def main(run):
+    if run:
+        gdxn = ChuangYe_GunDongXinWen()
+        gdxn.crawl()
 
 
 class ChuangYe_GunDongXinWen(Crawler):
