@@ -1,0 +1,28 @@
+2017-09-14 14:15:00 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:15:19 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3037486.shtml success.
+2017-09-14 14:15:27 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3016375.shtml success.
+2017-09-14 14:17:18 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:17:21 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3016375.shtml success.
+2017-09-14 14:18:37 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:18:41 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3016375.shtml success.
+2017-09-14 14:21:00 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:21:03 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3016375.shtml success.
+2017-09-14 14:29:45 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:29:48 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykymue6031495.shtml success.
+2017-09-14 14:35:51 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:35:53 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml success.
+2017-09-14 14:39:26 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:39:29 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml success.
+2017-09-14 14:44:04 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:44:05 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml success.
+2017-09-14 14:44:06 xin_lang_ke_ji.py[line: 137] ERROR Parser HTML file error. ErrorMsg: unescape() missing 1 required positional argument: 's'
+2017-09-14 14:44:06 Crawler.py[line: 93] ERROR Process link failed. URL=http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml, ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 14:44:17 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:44:19 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml success.
+2017-09-14 14:44:53 Crawler.py[line: 154] INFO Get http://roll.tech.sina.com.cn/internet_all/index_1.shtml success.
+2017-09-14 14:44:55 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/i/2017-09-14/doc-ifykywuc3060981.shtml success.
+2017-09-14 15:52:37 Crawler.py[line: 154] INFO Get http://feed.mix.sina.com.cn/api/roll/get?pageid=402&lid=2559&num=20&versionNumber=1.2.8&page=1&encode=utf-8&callback=feedCardJsonpCallback&_=1505375551023 success.
+2017-09-14 15:54:55 Crawler.py[line: 154] INFO Get http://feed.mix.sina.com.cn/api/roll/get?pageid=402&lid=2559&num=20&versionNumber=1.2.8&page=1&encode=utf-8&callback=feedCardJsonpCallback&_=1505375695731 success.
+2017-09-14 15:56:17 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/csj/2017-09-13/doc-ifykusey9963764.shtml success.
+2017-09-14 15:58:51 Crawler.py[line: 154] INFO Get http://feed.mix.sina.com.cn/api/roll/get?pageid=402&lid=2559&num=20&versionNumber=1.2.8&page=1&encode=utf-8&callback=feedCardJsonpCallback&_=1505375931031 success.
+2017-09-14 15:58:56 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/csj/2017-09-14/doc-ifykymue5959238.shtml success.

@@ -24,18 +24,33 @@
 %% %号本身
 """
 import datetime
+import time
 import requests
 from bs4 import BeautifulSoup
 
-now = datetime.datetime.now()
-one_day = datetime.timedelta(days=1)
-before_day = now - one_day
-print(before_day.strftime("%Y-%m-%d"))
+def date_usage():
+    now = datetime.datetime.now()
+    one_day = datetime.timedelta(days=1)
+    before_day = now - one_day
+    print(before_day.strftime("%Y-%m-%d"))
 
-count = 1000
-while count > 0:
-    r = requests.get("http://www.baidu.com")
-    bs_obj = BeautifulSoup(r.content, 'lxml')
-    print(bs_obj.text)
-    count -= 1
+    count = 1000
+    while count > 0:
+        r = requests.get("http://www.baidu.com")
+        bs_obj = BeautifulSoup(r.content, 'lxml')
+        print(bs_obj.text)
+        count -= 1
 
+
+def time_usage():
+    t1 = 1505371910663
+    t2 = 1505372085200
+    time1 = time.ctime(1505371910663/1000)
+    time2 = time.ctime(1505372085200/1000)
+    print(time1)
+    print(time2)
+
+
+if __name__ == "__main__":
+    print(time.time())
+    time_usage()

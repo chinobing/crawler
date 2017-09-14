@@ -21,3 +21,7 @@ class Util(object):
         [script.extract() for script in content_tag.findAll("script")]
         [style.extract() for style in content_tag.findAll("style")]
         return content_tag.get_text()
+
+    @staticmethod
+    def quote(string):
+        return string.replace("\"", "&quot;").replace("'", "&quot;")

@@ -12,7 +12,7 @@ from copy import deepcopy
 
 class Crawler(object):
 
-    all_file_dir = "/home/jfq/Documents/datapro_html/"
+    all_file_dir = "/home/fangqiao/Documents/datapro_html/"
 
     select_sql_format = "SELECT * FROM article_link WHERE link = \"{}\""
     insert_sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
@@ -137,19 +137,20 @@ class Crawler(object):
         f.close()
 
     def get_req(self, link):
+        # 不需要使用cookie
         try:
-            if self.cookie_count < 50:
-                r = requests.get(link, cookies=self.cookie_dict, timeout=10)
-            else:
-                r = requests.get(link, timeout=10)
-                self.cookie_count = 0
-                self.cookie_dict = {}
+            # if self.cookie_count < 50:
+            #     r = requests.get(link, cookies=self.cookie_dict, timeout=10)
+            # else:
+            r = requests.get(link, timeout=10)
+                # self.cookie_count = 0
+                # self.cookie_dict = {}
         except requests.ConnectTimeout:
             logging.error("Read link connection timeout. URL=%s" % link)
             raise BaseException()
         try:
-            if not self.cookie_dict:
-                self.cookie_dict = requests.utils.dict_from_cookiejar(r.cookies)
+            # if not self.cookie_dict:
+            #     self.cookie_dict = requests.utils.dict_from_cookiejar(r.cookies)
             logging.info("Get %s success." % link)
             return r.content
         except BaseException as e:
