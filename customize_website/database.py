@@ -61,7 +61,7 @@ class DBUtil(object):
     @staticmethod
     def select_data(sql):
         # fetchone()返回的是一个字典, 键为表的列名, 值为该列的值,
-        # 如果select的值不存在,返回空字典
+        # 如果select的值不存在,返回空字典， 数据量仅返回一条
         connection = DBUtil.get_conn()
         try:
             with connection.cursor() as cursor:
@@ -93,3 +93,22 @@ class DBUtil(object):
         result = DBUtil.select_data(sql=select_sql)
         if result:
             DBUtil.insert_data(insert_sql)
+
+    @staticmethod
+    def select_datas(sql):
+        """
+        数据库查询数据，数据量大于一条。
+        :param sql:  查询语句
+        :return: 返回查询结果。
+        """
+        connection = DBUtil.get_conn()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(sql)
+                result = cursor.fetchall()
+                connection.commit()
+                cursor.close()
+                return result
+        except BaseException as e:
+            logging.error("Query data error. SQL = " + sql)
+            raise BaseException()

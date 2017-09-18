@@ -1,6 +1,7 @@
 from customize_website.database import DBUtil
 import html
 
+
 def load_csv_to_db():
     DBUtil.create_table()
     path = "F:\\ql_project\\datapro_html\\article_link.csv"

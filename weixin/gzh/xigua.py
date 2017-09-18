@@ -38,9 +38,8 @@ insert_sql_format = "INSERT INTO article_wechat(biz, link, title, page_view, thu
 
 select_sql_format = "SELECT * FROM article_wechat WHERE link = \"{}\""
 
-select_biz_sql_format = "SELECT * FROM article_wechat_map WHERE wechat = \"{}\""   # 根据公众号的名称查询
 
-insert_biz_sql_format = "INSERT INTO article_wechat_map(biz, wechat) VALUES(\"{}\", \"{}\")"
+
 
 wechat = None   # 公众号的名称
 
