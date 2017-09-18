@@ -21,7 +21,7 @@ class DBUtil(object):
         if DBUtil.con:
             return DBUtil.con
         # 配置MySQL, 返回MySQL connection, 这是针对公司的MySQL数据库设置的。
-        con = pymysql.connect(host='30.5.51.226',
+        con = pymysql.connect(host='localhost',
                               port=3306,
                               user='root',
                               password='1234',
