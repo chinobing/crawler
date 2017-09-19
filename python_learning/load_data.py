@@ -1,9 +1,11 @@
 from customize_website.database import DBUtil
+import html
 
 
 def load_csv_to_db():
     DBUtil.create_table()
     path = "/home/jfq/article_link.csv"
+    path = "F:\\ql_project\\datapro_html\\article_link.csv"
     sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
                  " page_view, publish_time) VALUES({}, {}, {}, {}," \
                  "{}, {})"
@@ -21,6 +23,10 @@ def load_csv_to_db():
         DBUtil.insert_data(sql)
         print(count)
         count += 1
+
+
+if __name__ == "__main__":
+    load_csv_to_db()
 
 
 if __name__ == "__main__":

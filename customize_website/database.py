@@ -62,6 +62,8 @@ class DBUtil(object):
     def select_data(sql):
         # fetchone()返回的是一个字典, 键为列的列名, 值为该列的值,
         # 如果select的值不存在,返回空字典
+        # fetchone()返回的是一个字典, 键为表的列名, 值为该列的值,
+        # 如果select的值不存在,返回空字典， 数据量仅返回一条
         connection = DBUtil.get_conn()
         try:
             with connection.cursor() as cursor:
@@ -96,6 +98,11 @@ class DBUtil(object):
 
     @staticmethod
     def select_datas(sql):
+        """
+        数据库查询数据，数据量大于一条。
+        :param sql:  查询语句
+        :return: 返回查询结果。
+        """
         connection = DBUtil.get_conn()
         try:
             with connection.cursor() as cursor:

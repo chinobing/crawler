@@ -8,21 +8,13 @@ import time
 import datetime
 
 # 将cookie字符串转换为字典
-cookies_dict = {'LV2': '1', '_XIGUASTATE': 'XIGUASTATEID=0b8ee74b9b4d442b93a1ccc2fc37952d',
-                '_XIGUA': 'UserId=43ec86f3ba207f23&Account=07565d5e3f5bb33c&checksum=773f4498a4b4',
-                'ASP.NET_SessionId': 'pmbnzmnb3dhxrvn2klbmm3nh',
-                'Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa': '1504411149', 'ExploreTags659938': '',
-                'Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa': '1504410708', 'BigBiz659938': 'False',
-                'SERVERID': '0a1db1b547a47b70726acefc0225fff8|1504413567|1504410704'}
+cookies_dict = {}
 
 # 直接登录后拿到的cookie, 以后需要模拟登录拿数据
-cookies_str = 'ASP.NET_SessionId=pmbnzmnb3dhxrvn2klbmm3nh; _XIGUASTATE=XIGUASTATEID=0b8ee74b9b4d442b93a1ccc2fc37952d;' \
-              ' Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1504410708; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=15044111' \
-              '49; _XIGUA=UserId=43ec86f3ba207f23&Account=07565d5e3f5bb33c&checksum=773f4498a4b4; BigBiz659938=False;' \
-              ' LV2=1; ExploreTags659938=; SERVERID=0a1db1b547a47b70726acefc0225fff8|1504413567|1504410704'
+cookies_str = '_XIGUASTATE=XIGUASTATEID=0b8ee74b9b4d442b93a1ccc2fc37952d; BigBiz659938=False; ExploreTags659938=; _chl=key=FromBaiDu&word=6KW/55Oc5Yqp5omL; LoginTag=f96998769edb41af85d363d96358b5a5; ASP.NET_SessionId=hky251rjd5m03wks3vcgkped; Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1504410708,1505398888,1505451972; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=1505456040; _XIGUA=UserId=d471a30ba6f3c365&Account=fd0673b157bef6e1f2b65e9f22a7aed8&checksum=07f82d9710fc; SaveUserName=18911949659; LV2=1; SERVERID=2e7fd5d7f4caba1a3ae6a9918d4cc9a6|1505456742|1505451960'
 
 
-create_table_sql = "CREATE TABLE IF NOT EXISTS article_link(" \
+create_table_sql = "CREATE TABLE IF NOT EXISTS article_wechat(" \
                    "id INT PRIMARY KEY AUTO_INCREMENT," \
                    "biz VARCHAR(100)," \
                    "link varchar(300)," \
@@ -41,19 +33,21 @@ insert_gzh_sql_format = "INSERT INTO xi_gua_gzh_link(link) VALUES(\"{}\")"
 
 select_gzh_sql_format = "SELECT * FROM xi_gua_gzh_link WHERE link = \"{}\""
 
-insert_sql_format = "INSERT INTO article(biz, link, title, page_view, thumb_number) " \
+insert_sql_format = "INSERT INTO article_wechat(biz, link, title, page_view, thumb_number) " \
              "VALUES(\"{}\", \"{}\", \"{}\", {}, {})"
 
-select_sql_format = "SELECT * FROM article WHERE link = \"{}\""
+select_sql_format = "SELECT * FROM article_wechat WHERE link = \"{}\""
 
-select_biz_sql_format = "SELECT * FROM article_wechat_map WHERE wechat = \"{}\""   # 根据公众号的名称查询
 
-insert_biz_sql_format = "INSERT INTO article_wechat_map(biz, wechat) VALUES(\"{}\", \"{}\")"
+
 
 wechat = None   # 公众号的名称
 
+# 对每个分组的公众号进行遍历
+link_url = 'http://zs.xiguaji.com/MBiz/Attention/?partial=1&bizName=&tagIds={}&page={}'
 
-def get_cookie_dict():
+
+def set_cookie_dict():
     strs = cookies_str.split(";")
     for string in strs:
         pos = string.index("=")
@@ -64,22 +58,22 @@ def get_cookie_dict():
 
 
 def crawl_xigua():
+
     url = 'http://zs.xiguaji.com/MBiz/GetMBizHistory/f60d84/208837/10'
     r = requests.get(url, cookies=cookies_dict, timeout=10)
     print(r.content.__len__())
 
 
-def get_gzh_links():
+def get_gzh_links(tagIds):
     """
     拿到每个公众号的URL地址，通过地址拼接，定位到相关公众号的首页。
     http://zs.xiguaji.com,这是开始地址，具体地址有这个方法得到，但是地址前面有一个#
     """
     start_page = 1
     # 这里的参数可以在主页面找到，以后要是写完整则需从主页面开始进行解析，完善爬取过程
-    url = 'http://zs.xiguaji.com/MBiz/Attention/?partial=1&bizName=&tagIds=37104&page={}'
     links = []
     while 1:
-        url_new = url.format(start_page)
+        url_new = link_url.format(tagIds, start_page)
         r = requests.get(url=url_new, cookies=cookies_dict, timeout=10)
         if r.content.__len__() < 1:
             break
@@ -92,10 +86,10 @@ def get_gzh_links():
     return links
 
 
-def get_gzh_para():
+def get_gzh_para(tagIds):
     url = "http://zs.xiguaji.com"
     try:
-        links = get_gzh_links()
+        links = get_gzh_links(tagIds)
     except BaseException as e:
         logging.error("Get WeChat Subscription link error. ErrorMsg: " + str(e))
         return
@@ -122,33 +116,41 @@ def get_gzh_para():
 
 def crawl():
     try:
-        date_str = datetime.datetime.now().strftime(fmt="%Y-%m-%d")
-        logging.basicConfig(level=logging.DEBUG,
+        date_str = datetime.datetime.now().strftime("%Y-%m-%d")
+        terminal_handler = logging.StreamHandler()
+        file_handler = logging.FileHandler("log/" + date_str + "_log.log", "a")
+        logging.basicConfig(level=logging.INFO,
                             format="%(asctime)s %(filename)s[line: %(lineno)d] %(levelname)s %(message)s",
                             datefmt="%Y-%m-%d %H:%M:%S",
-                            filename="log/" + date_str + "_log.log",
-                            filemode="a")
+                            # filename="log/" + date_str + ".log",
+                            # filemode="a",
+                            handlers=[terminal_handler, file_handler])
         # create the table
         DBUtil.insert_data(create_table_sql)
         DBUtil.insert_data(create_gzh_table_sql)
         # URL中的三项分别是 data_key, data_id, page_number
-        try:
-            para_dict = get_gzh_para()
-        except BaseException as e:
-            logging.error("Get WeChat Subscription link parameter error. ErrorMsg: " + str(e))
-            return
-        keys = para_dict.keys()
-        for key in keys:
-
-            value = para_dict.get(key)
-            result = DBUtil.select_data(select_gzh_sql_format.format(key + "/" + value))
-            if result:
-                continue
+        tag_ids = get_tag_ids()
+        for tag_id in tag_ids:
             try:
-                crawl_gzh(key, value)
-                DBUtil.insert_data(insert_gzh_sql_format.format(key + "/" + value))
+                para_dict = get_gzh_para(tag_id)
             except BaseException as e:
-                logging.error("Get WeChat Subscription message error. ErrorMsg: " + str(e))
+                logging.error("Get WeChat Subscription link parameter error. ErrorMsg: " + str(e))
+                return
+            keys = para_dict.keys()
+            for key in keys:
+
+                value = para_dict.get(key)
+                result = DBUtil.select_data(select_gzh_sql_format.format(key + "/" + value))
+                if result:
+                    continue
+                try:
+                    try:
+                        crawl_gzh(key, value)
+                    except BaseException as e:
+                        logging.error("Crawl %s: %s Error" %(key, value))
+                    DBUtil.insert_data(insert_gzh_sql_format.format(key + "/" + value))
+                except BaseException as e:
+                    logging.error("Get WeChat Subscription message error. ErrorMsg: " + str(e))
     finally:
         DBUtil.close_conn()
 
@@ -158,11 +160,15 @@ def crawl_gzh(key, value):
     start_page = 1
     while 1:
         new_url = url.format(key, value, start_page)
-        print(new_url)
+
         r = requests.get(new_url, cookies=cookies_dict, timeout=10)
         if r.content.__len__() <= 20:
             break
-        parse(r.content.decode("utf-8"))
+        logging.info("Get %s success." % new_url)
+        try:
+            parse(r.content.decode("utf-8"))
+        except BaseException as e:
+            logging.error("Parse content error. ErrorMsg: %s" % str(e))
         start_page += 1
         time.sleep(3)
 
@@ -199,7 +205,19 @@ def parse(content):
             DBUtil.insert_data(insert_sql)
 
 
-if __name__ == "__main__":
+def get_tag_ids():
+    url_new = "http://zs.xiguaji.com/MBiz/Attention"
+    r = requests.get(url_new, cookies=cookies_dict)
+    bs_obj = BeautifulSoup(r.content, "html.parser")
+    tags = bs_obj.findAll("li", attrs={"data-realid": re.compile(r'\d*')})
+    tag_ids = []
+    for tag in tags:
+        tag_ids.append(tag.get("data-realid"))
+    return tag_ids
+
+
+def main():
+    set_cookie_dict()
     crawl()
 
 
