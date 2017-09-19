@@ -38,11 +38,6 @@ insert_sql_format = "INSERT INTO article_wechat(biz, link, title, page_view, thu
 
 select_sql_format = "SELECT * FROM article_wechat WHERE link = \"{}\""
 
-
-
-
-wechat = None   # 公众号的名称
-
 # 对每个分组的公众号进行遍历
 link_url = 'http://zs.xiguaji.com/MBiz/Attention/?partial=1&bizName=&tagIds={}&page={}'
 

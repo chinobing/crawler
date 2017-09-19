@@ -1,9 +1,6 @@
-import re
 import logging
-import html
 from bs4 import BeautifulSoup
 import datetime
-import time
 
 from customize_website.Crawler import Crawler
 from customize_website.Util import Util
@@ -23,6 +20,7 @@ def main(run):
         cp.crawl()
         gs = ZiXun_GongSi()
         gs.crawl()
+
 
 class ZiXun_RenWu(Crawler):
     def __init__(self):

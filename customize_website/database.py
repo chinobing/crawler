@@ -93,7 +93,7 @@ class DBUtil(object):
         :return: 
         """
         result = DBUtil.select_data(sql=select_sql)
-        if result:
+        if not result:
             DBUtil.insert_data(insert_sql)
 
     @staticmethod
@@ -112,5 +112,17 @@ class DBUtil(object):
                 cursor.close()
                 return result
         except BaseException as e:
+            logging.error("Query data error. SQL = " + sql)
+            raise BaseException()
+
+    @staticmethod
+    def update_data(sql):
+        connection = DBUtil.get_conn()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(sql)
+                connection.commit()
+                cursor.close()
+        except:
             logging.error("Query data error. SQL = " + sql)
             raise BaseException()
