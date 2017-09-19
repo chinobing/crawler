@@ -8,16 +8,22 @@ import time
 import html
 from selenium import webdriver
 from copy import deepcopy
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 class Crawler(object):
 
-    all_file_dir = "/home/fangqiao/Documents/datapro_html/"
+    all_file_dir = "/home/jfq/Documents/datapro_html/"
 
     select_sql_format = "SELECT * FROM article_link WHERE link = \"{}\""
     insert_sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
                         " page_view, publish_time) VALUES(\"{}\", \"{}\", \"{}\", \"{}\"," \
                         "{}, \"{}\")"
+
+    dcap = dict(DesiredCapabilities.PHANTOMJS)  # 修改userAgent 以及不加载图片
+    dcap["phantomjs.page.settings.userAgent"] = ("Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.221 Safari/537.36 SE 2.X MetaSr 1.0")  # 设置user-agent请求头
+    dcap["phantomjs.page.settings.loadImages"] = False
+
     cookie_dict = {
         "name": None,
         "value": None,
@@ -72,16 +78,17 @@ class Crawler(object):
                 file_name = url[slash_pos + 1: point_pos]
             else:
                 file_name = url[slash_pos + 1:]
-            html_content = self.get_req(url)
+            html_content = self.use_phantom_get_req(url, "36kr.com")
             self.make_dirs()
-            try:
-                src_content = html_content.decode("utf-8")
-            except:
-                try:
-                    src_content = html_content.decode("gbk")
-                except:
-                    logging.error("Can't decode with utf-8 or gbk")
-                    raise BaseException()
+            src_content = html_content
+            # try:
+            #     src_content = html_content.decode("utf-8")
+            # except:
+            #     try:
+            #         src_content = html_content.decode("gbk")
+            #     except:
+            #         logging.error("Can't decode with utf-8 or gbk")
+            #         raise BaseException()
             self.save_html_file(content=src_content, file_name=file_name)
             body_content, title, page_view, publish_time = self.parse_html(src_content)
             self.save_content_file(content=body_content, file_name=file_name)
@@ -137,20 +144,20 @@ class Crawler(object):
         f.close()
 
     def get_req(self, link):
-        # 不需要使用cookie
         try:
-            # if self.cookie_count < 50:
-            #     r = requests.get(link, cookies=self.cookie_dict, timeout=10)
-            # else:
-            r = requests.get(link, timeout=10)
-                # self.cookie_count = 0
-                # self.cookie_dict = {}
+            if self.cookie_count < 50:
+                r = requests.get(link, cookies=self.cookie_dict, timeout=10)
+                self.cookie_count += 1
+            else:
+                r = requests.get(link, timeout=10)
+                self.cookie_count = 0
+                self.cookie_dict = {}
         except requests.ConnectTimeout:
             logging.error("Read link connection timeout. URL=%s" % link)
             raise BaseException()
         try:
-            # if not self.cookie_dict:
-            #     self.cookie_dict = requests.utils.dict_from_cookiejar(r.cookies)
+            if not self.cookie_dict:
+                self.cookie_dict = requests.utils.dict_from_cookiejar(r.cookies)
             logging.info("Get %s success." % link)
             return r.content
         except BaseException as e:
@@ -175,17 +182,26 @@ class Crawler(object):
     def use_phantom_get_req(self, url, domain):
         try:
             driver = webdriver.PhantomJS(
-                executable_path='/home/jfq/software/phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
-            keys = self.cookie_dict.keys()
-            for key in keys:
-                cookie_dict_ins = deepcopy(Crawler.cookie_dict)
-                cookie_dict_ins['name'] = key
-                cookie_dict_ins['value'] = self.cookie_dict[key]
-                cookie_dict_ins['domain'] = domain
-                driver.add_cookie(cookie_dict_ins)
+                executable_path='/home/jfq/software/phantomjs-2.1.1-linux-x86_64/bin/phantomjs',
+                desired_capabilities=Crawler.dcap)
+            # keys = self.cookie_dict.keys()
+            # for key in keys:
+            #     cookie_dict_ins = deepcopy(Crawler.cookie_dict)
+            #     cookie_dict_ins['name'] = key
+            #     cookie_dict_ins['value'] = self.cookie_dict[key]
+            #     cookie_dict_ins['domain'] = domain
+            #     driver.add_cookie(cookie_dict_ins)
+            driver.set_page_load_timeout(30)
             driver.get(url)
+            # if len(self.cookie_dict) == 0:
+            #     self.cookie_dict = driver.get_cookies()
+            # self.cookie_count += 1
+            # if self.cookie_count >= 50:
+            #     self.cookie_count = 0
+            #     self.cookie_dict = {}
             # 等待特定数据出现
             # driver.implicitly_wait(10)
+            logging.info("Get %s success." % url)
             return driver.page_source
         except BaseException as e:
             logging.error("Get link error. ErrorMsg: %s" % str(e))

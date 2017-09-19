@@ -26,3 +26,110 @@
 2017-09-14 15:56:17 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/csj/2017-09-13/doc-ifykusey9963764.shtml success.
 2017-09-14 15:58:51 Crawler.py[line: 154] INFO Get http://feed.mix.sina.com.cn/api/roll/get?pageid=402&lid=2559&num=20&versionNumber=1.2.8&page=1&encode=utf-8&callback=feedCardJsonpCallback&_=1505375931031 success.
 2017-09-14 15:58:56 Crawler.py[line: 154] INFO Get http://tech.sina.com.cn/csj/2017-09-14/doc-ifykymue5959238.shtml success.
+2017-09-14 20:56:42 Crawler.py[line: 154] INFO Get http://36kr.com success.
+2017-09-14 20:58:41 san_shi_liu_ke.py[line: 62] ERROR Parser HTML file error. ErrorMsg: 
+2017-09-14 20:58:41 Crawler.py[line: 86] ERROR Process link failed. URL=http://36kr.com, ErrorMsg: 
+2017-09-14 20:58:43 Crawler.py[line: 154] INFO Get http://36kr.com/p/5087799.html success.
+2017-09-14 20:58:43 san_shi_liu_ke.py[line: 62] ERROR Parser HTML file error. ErrorMsg: 'NoneType' object has no attribute 'findAll'
+2017-09-14 20:58:43 Crawler.py[line: 93] ERROR Process link failed. URL=http://36kr.com/p/5087799.html, ErrorMsg: 
+2017-09-14 21:00:32 Crawler.py[line: 83] ERROR Can't decode with utf-8 or gbk
+2017-09-14 21:00:32 Crawler.py[line: 93] ERROR Process link failed. URL=http://36kr.com, ErrorMsg: 
+2017-09-14 21:00:36 san_shi_liu_ke.py[line: 44] ERROR Download links error. ErrorMsg: 
+2017-09-14 21:02:59 Crawler.py[line: 93] ERROR Process link failed. URL=http://36kr.com, ErrorMsg: 
+2017-09-14 21:05:43 Crawler.py[line: 87] ERROR Process link failed. URL=http://36kr.com, ErrorMsg: 
+2017-09-14 21:09:23 Crawler.py[line: 154] INFO Get http://36kr.com/p/5087805.html success.
+2017-09-14 21:12:10 Crawler.py[line: 86] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:14:10 san_shi_liu_ke.py[line: 62] ERROR Parser HTML file error. ErrorMsg: 
+2017-09-14 21:14:10 Crawler.py[line: 87] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:17:02 Crawler.py[line: 193] ERROR Get link error. ErrorMsg: 
+2017-09-14 21:17:02 Crawler.py[line: 124] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:17:02 Crawler.py[line: 94] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:19:40 Crawler.py[line: 194] ERROR Get link error. ErrorMsg: Message: {"errorMessage":"URL 'http://36kr.com/p/5087805.html' didn't load. Error: 'timeout'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"94","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:35879","User-Agent":"Python http auth"},"httpVersion":"1.1","method":"POST","post":"{\"url\": \"http://36kr.com/p/5087805.html\", \"sessionId\": \"1ecf2ed0-994f-11e7-b96d-dfa1fa83abab\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/1ecf2ed0-994f-11e7-b96d-dfa1fa83abab/url"}}
+Screenshot: available via screen
+
+2017-09-14 21:19:48 Crawler.py[line: 124] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:19:50 Crawler.py[line: 94] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:20:13 Crawler.py[line: 191] INFO Get http://36kr.com/p/5087800.html success.
+2017-09-14 21:20:53 Crawler.py[line: 191] INFO Get http://36kr.com/p/5087518.html success.
+2017-09-14 21:21:07 Crawler.py[line: 194] ERROR Get link error. ErrorMsg: Message: {"errorMessage":"URL 'http://36kr.com/p/5087643.html' didn't load. Error: 'timeout'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"94","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:49705","User-Agent":"Python http auth"},"httpVersion":"1.1","method":"POST","post":"{\"url\": \"http://36kr.com/p/5087643.html\", \"sessionId\": \"8af222c0-994f-11e7-a646-a9d8d5a15638\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/8af222c0-994f-11e7-a646-a9d8d5a15638/url"}}
+Screenshot: available via screen
+
+2017-09-14 21:21:07 Crawler.py[line: 124] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:21:07 Crawler.py[line: 94] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: 
+2017-09-14 21:21:18 Crawler.py[line: 191] INFO Get http://36kr.com/p/5074734.html success.
+2017-09-14 21:21:26 Crawler.py[line: 191] INFO Get http://36kr.com/p/5087612.html success.
+2017-09-14 21:21:39 Crawler.py[line: 194] ERROR Get link error. ErrorMsg: Message: {"errorMessage":"URL 'http://36kr.com/p/5087845.html' didn't load. Error: 'timeout'","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"94","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:41287","User-Agent":"Python http auth"},"httpVersion":"1.1","method":"POST","post":"{\"url\": \"http://36kr.com/p/5087845.html\", \"sessionId\": \"9e4c8310-994f-11e7-b323-b10a715d684a\"}","url":"/url","urlParsed":{"anchor":"","query":"","file":"url","directory":"/","path":"/url","relative":"/url","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/url","queryKey":{},"chunks":["url"]},"urlOriginal":"/session/9e4c8310-994f-11e7-b323-b10a715d684a/url"}}
+Screenshot: available via screen
+
+2017-09-14 21:21:39 Crawler.py[line: 124] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:21:39 Crawler.py[line: 94] ERROR Process link failed. URL=http://36kr.com/p/5087845.html, ErrorMsg: 
+2017-09-14 21:22:04 Crawler.py[line: 191] INFO Get http://36kr.com/p/5087843.html success.
+2017-09-14 21:22:08 san_shi_liu_ke.py[line: 44] ERROR Download links error. ErrorMsg: 
+2017-09-14 21:39:03 Crawler.py[line: 76] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:39:04 Crawler.py[line: 206] ERROR Get link error. ErrorMsg: Message: 'phantomjs' executable needs to be in PATH. 
+
+2017-09-14 21:39:04 Crawler.py[line: 125] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:39:04 Crawler.py[line: 95] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: 
+2017-09-14 21:41:20 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087805.html success.
+2017-09-14 21:41:42 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 
+2017-09-14 21:41:42 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:41:42 Crawler.py[line: 81] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: 
+2017-09-14 21:41:43 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:41:43 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:41:43 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: 
+2017-09-14 21:41:44 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:41:44 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:41:44 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087845.html, ErrorMsg: 
+2017-09-14 21:42:26 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087805.html success.
+2017-09-14 21:42:27 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:27 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:27 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: 
+2017-09-14 21:42:28 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:28 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:28 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087845.html, ErrorMsg: 
+2017-09-14 21:42:29 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:29 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:29 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5084890.html, ErrorMsg: 
+2017-09-14 21:42:31 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:31 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:31 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087823.html, ErrorMsg: 
+2017-09-14 21:42:32 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:32 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:32 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087780.html, ErrorMsg: 
+2017-09-14 21:42:32 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 
+2017-09-14 21:42:32 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087790.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-09-14 21:42:33 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:33 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:33 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087836.html, ErrorMsg: 
+2017-09-14 21:42:34 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:34 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:34 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087789.html, ErrorMsg: 
+2017-09-14 21:42:36 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:42:36 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:42:36 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087837.html, ErrorMsg: 
+2017-09-14 21:44:03 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 
+2017-09-14 21:44:03 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:44:03 Crawler.py[line: 81] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: 
+2017-09-14 21:44:04 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 'list' object has no attribute 'keys'
+2017-09-14 21:44:04 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:44:04 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087845.html, ErrorMsg: 
+2017-09-14 21:45:30 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087643.html success.
+2017-09-14 21:46:04 Crawler.py[line: 81] ERROR Process link failed. URL=http://36kr.com/p/5087845.html, ErrorMsg: 
+2017-09-14 21:46:06 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: Message: {"errorMessage":"Can only set Cookies for the current domain","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"529","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:59959","User-Agent":"Python http auth"},"httpVersion":"1.1","method":"POST","post":"{\"cookie\": {\"domain\": \".36kr.com\", \"expires\": \"\\u5468\\u56db, 14 9\\u6708 2017 19:45:30 GMT\", \"expiry\": 1505418330, \"httponly\": true, \"name\": \"krchoasss\", \"path\": \"/\", \"secure\": false, \"value\": \"eyJpdiI6Im5hK2hQZjF6OXQwYUowdmNwYzgyWlE9PSIsInZhbHVlIjoiWFNKSjVDS2ZBR0VJVHliWjkwbmg1YzNRcENhMjk3dUZGcGVXbXNVc1lVZ3MydHBqbmpmN3lvQUFkcURjRFpxeWdtS21IZER6elhSdFhTOVQ4KzZBT2c9PSIsIm1hYyI6IjA5ZGNlYTc3MGEzZjI2MjIzZWI0NjlmN2RhODk3MGU5YzEyMWVhMmJiNzM0ZjA1YzYxMWUxNTQzNmMyY2YxOWMifQ%3D%3D\"}, \"sessionId\": \"0e60f520-9953-11e7-a1a0-2fee69515728\"}","url":"/cookie","urlParsed":{"anchor":"","query":"","file":"cookie","directory":"/","path":"/cookie","relative":"/cookie","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/cookie","queryKey":{},"chunks":["cookie"]},"urlOriginal":"/session/0e60f520-9953-11e7-a1a0-2fee69515728/cookie"}}
+Screenshot: available via screen
+
+2017-09-14 21:46:06 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:46:06 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5084890.html, ErrorMsg: 
+2017-09-14 21:46:07 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: Message: {"errorMessage":"Can only set Cookies for the current domain","request":{"headers":{"Accept":"application/json","Accept-Encoding":"identity","Connection":"close","Content-Length":"529","Content-Type":"application/json;charset=UTF-8","Host":"127.0.0.1:39461","User-Agent":"Python http auth"},"httpVersion":"1.1","method":"POST","post":"{\"cookie\": {\"domain\": \".36kr.com\", \"expires\": \"\\u5468\\u56db, 14 9\\u6708 2017 19:45:30 GMT\", \"expiry\": 1505418330, \"httponly\": true, \"name\": \"krchoasss\", \"path\": \"/\", \"secure\": false, \"value\": \"eyJpdiI6Im5hK2hQZjF6OXQwYUowdmNwYzgyWlE9PSIsInZhbHVlIjoiWFNKSjVDS2ZBR0VJVHliWjkwbmg1YzNRcENhMjk3dUZGcGVXbXNVc1lVZ3MydHBqbmpmN3lvQUFkcURjRFpxeWdtS21IZER6elhSdFhTOVQ4KzZBT2c9PSIsIm1hYyI6IjA5ZGNlYTc3MGEzZjI2MjIzZWI0NjlmN2RhODk3MGU5YzEyMWVhMmJiNzM0ZjA1YzYxMWUxNTQzNmMyY2YxOWMifQ%3D%3D\"}, \"sessionId\": \"0f0e2510-9953-11e7-873e-397882220cd0\"}","url":"/cookie","urlParsed":{"anchor":"","query":"","file":"cookie","directory":"/","path":"/cookie","relative":"/cookie","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/cookie","queryKey":{},"chunks":["cookie"]},"urlOriginal":"/session/0f0e2510-9953-11e7-873e-397882220cd0/cookie"}}
+Screenshot: available via screen
+
+2017-09-14 21:46:07 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:46:07 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087823.html, ErrorMsg: 
+2017-09-14 21:47:05 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087845.html success.
+2017-09-14 21:47:27 Crawler.py[line: 204] INFO Get http://36kr.com/p/5084890.html success.
+2017-09-14 21:47:35 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087823.html success.
+2017-09-14 21:47:39 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087780.html success.
+2017-09-14 21:47:46 Crawler.py[line: 204] INFO Get http://36kr.com/p/5087790.html success.
+2017-09-14 21:47:49 Crawler.py[line: 207] ERROR Get link error. ErrorMsg: 
+2017-09-14 21:47:49 Crawler.py[line: 130] ERROR Save HTML file error. ErrorMsg: 'NoneType' object is not iterable
+2017-09-14 21:47:49 Crawler.py[line: 100] ERROR Process link failed. URL=http://36kr.com/p/5087836.html, ErrorMsg: 

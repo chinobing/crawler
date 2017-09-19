@@ -21,7 +21,7 @@ class DBUtil(object):
         if DBUtil.con:
             return DBUtil.con
         # 配置MySQL, 返回MySQL connection, 这是针对公司的MySQL数据库设置的。
-        con = pymysql.connect(host='30.5.51.226',
+        con = pymysql.connect(host='localhost',
                               port=3306,
                               user='root',
                               password='1234',
@@ -60,7 +60,7 @@ class DBUtil(object):
 
     @staticmethod
     def select_data(sql):
-        # fetchone()返回的是一个字典, 键为表的列名, 值为该列的值,
+        # fetchone()返回的是一个字典, 键为列的列名, 值为该列的值,
         # 如果select的值不存在,返回空字典
         connection = DBUtil.get_conn()
         try:
@@ -93,3 +93,17 @@ class DBUtil(object):
         result = DBUtil.select_data(sql=select_sql)
         if result:
             DBUtil.insert_data(insert_sql)
+
+    @staticmethod
+    def select_datas(sql):
+        connection = DBUtil.get_conn()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute(sql)
+                result = cursor.fetchall()
+                connection.commit()
+                cursor.close()
+                return result
+        except BaseException as e:
+            logging.error("Query data error. SQL = " + sql)
+            raise BaseException()
