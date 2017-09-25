@@ -4,10 +4,7 @@ import logging
 import requests
 from .database import DBUtil
 import html
-import time
-import html
 from selenium import webdriver
-from copy import deepcopy
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
@@ -89,12 +86,14 @@ class Crawler(object):
             #     except:
             #         logging.error("Can't decode with utf-8 or gbk")
             #         raise BaseException()
-            self.save_html_file(content=src_content, file_name=file_name)
+
             body_content, title, page_view, publish_time = self.parse_html(src_content)
-            self.save_content_file(content=body_content, file_name=file_name)
             self.insert_data(url, self.item_path, html.escape(title),
                              self.relative_path + file_name + ".html",
                              page_view, publish_time)
+            # 数据库操作成功之后才可以保存文件,否则文件保存没有用.
+            self.save_html_file(content=src_content, file_name=file_name)
+            self.save_content_file(content=body_content, file_name=file_name)
             # time.sleep(0.5)
         except BaseException as e:
             logging.error("Process link failed. URL=%s, ErrorMsg: %s" % (url, str(e)))

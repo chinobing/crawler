@@ -1,23 +1,27 @@
 from customize_website.database import DBUtil
 
 
-def load_csv_to_db():
+def load_article_link():
     DBUtil.create_table()
-    path = "/home/jfq/article_link.csv"
+    path = "/home/jfq/article.csv"
     sql_format = "INSERT INTO article_link(link, item_path, title, html_path," \
-                 " page_view, publish_time) VALUES({}, {}, {}, {}," \
-                 "{}, {})"
+                 " page_view, publish_time) VALUES('{}', '{}', '{}', '{}'," \
+                 "{}, '{}')"
     f = open(path, "r", encoding="utf-8")
     count = 0
     while 1:
+
         line = f.readline()
         if len(line) == 0:
             break
         line = line.replace("\r", "").replace("\n", "")
-        while not line.endswith(":00\""):
+        while not line.endswith(":00"):
             line += f.readline().replace("\r", "").replace("\n", "")
-        strs = line.split(", ")
-        sql = sql_format.format(strs[0], strs[1], strs[2], strs[3], strs[4], strs[5])
+        strs = line.split("\t")
+        if count <= 103460:
+            count += 1
+            continue
+        sql = sql_format.format(strs[1], strs[2], strs[3], strs[4], strs[5], strs[6])
         DBUtil.insert_data(sql)
         print(count)
         count += 1
@@ -79,4 +83,4 @@ def load_xi_gua_gzh_link():
 
 
 if __name__ == "__main__":
-    load_xi_gua_gzh_link()
+    load_article_link()

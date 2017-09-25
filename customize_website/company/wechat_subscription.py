@@ -44,8 +44,8 @@ class WeChatSubscription(Crawler):
         result = DBUtil.select_data(sql)
         if result:
             self.id += 1
-            self.relative_path = self.relative_path.format(result['wechat'].replace("\"", "").replace(" ", ""))
-            self.dirs = Crawler.all_file_dir + self.relative_path
+            path = self.relative_path.format(result['wechat'].replace("\"", "").replace(" ", ""))
+            self.dirs = Crawler.all_file_dir + path
             return result['biz'].replace("\"", "").replace(" ", "")
         else:
             return "", ""
