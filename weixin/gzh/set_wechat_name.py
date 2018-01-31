@@ -18,7 +18,6 @@ class WeChatMap(object):
                                 "biz VARCHAR(100)," \
                                 "wechat VARCHAR(100)" \
                                 ");"
-
     select_biz_sql_format = "SELECT * FROM article_wechat_map WHERE wechat = \"{}\""  # 根据公众号的名称查询
 
     insert_biz_sql_format = "INSERT INTO article_wechat_map(biz, wechat) VALUES(\"{}\", \"{}\")"
@@ -74,6 +73,8 @@ class WeChatMap(object):
         WeChatMap.create_table()
         biz_list = WeChatMap.get_biz()
         for biz in biz_list:
+            if biz == ' "MjM5MzkyMzMzNA=="':
+                continue
             link = WeChatMap.get_link(biz)
             if link:
                 name = WeChatMap.get_wechat_name(link)

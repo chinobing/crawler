@@ -23,7 +23,6 @@ def main(run):
         mrgz.crawl()
 
 
-
 class HuanQiuTanSuo(Crawler):
 
     def __init__(self):

@@ -1,0 +1,19 @@
+2017-11-01 18:40:13 CrawlerTag.py[line: 74] INFO Get http://36kr.com/p/5087799.html success.
+2017-11-01 18:40:17 CrawlerTag.py[line: 74] INFO Get http://36kr.com/p/5087802.html success.
+2017-11-01 18:40:18 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:18 san_shi_liu_ke.py[line: 43] ERROR Parser HTML file error. ErrorMsg: object of type 'NoneType' has no len()
+2017-11-01 18:40:18 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087800.html, ErrorMsg: 
+2017-11-01 18:40:20 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:20 san_shi_liu_ke.py[line: 43] ERROR Parser HTML file error. ErrorMsg: object of type 'NoneType' has no len()
+2017-11-01 18:40:20 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087518.html, ErrorMsg: 
+2017-11-01 18:40:20 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:20 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5074734.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-11-01 18:40:20 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:20 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087612.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-11-01 18:40:21 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:21 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087843.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-11-01 18:40:21 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:21 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087805.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-11-01 18:40:21 CrawlerTag.py[line: 77] ERROR Get link error. ErrorMsg: 
+2017-11-01 18:40:21 CrawlerTag.py[line: 46] ERROR Process link failed. URL=http://36kr.com/p/5087643.html, ErrorMsg: local variable 'driver' referenced before assignment
+2017-11-01 18:40:24 CrawlerTag.py[line: 74] INFO Get http://36kr.com/p/5087845.html success.

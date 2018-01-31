@@ -1,0 +1,121 @@
+2017-09-28 16:58:09 Crawler.py[line: 160] INFO Get http://www.techxue.com/ecdata/ success.
+2017-09-28 16:58:46 Crawler.py[line: 206] ERROR Get link error. ErrorMsg: 
+2017-09-28 16:58:55 hu_lian_wang_fen_xi_sha_long.py[line: 65] ERROR Parse HTML error. ErrorMsg: object of type 'NoneType' has no len()
+2017-09-28 16:58:58 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30648-1.html, ErrorMsg: 'NoneType' object is not iterable
+2017-09-28 16:59:44 Crawler.py[line: 160] INFO Get http://www.techxue.com/ecdata/ success.
+2017-09-28 17:00:09 Crawler.py[line: 206] ERROR Get link error. ErrorMsg: 
+2017-09-28 17:02:48 Crawler.py[line: 160] INFO Get http://www.techxue.com/ecdata/ success.
+2017-09-28 17:03:01 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30648-1.html success.
+2017-09-28 17:03:22 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30648-1.html, ErrorMsg: 
+2017-09-28 17:03:22 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30479-1.html success.
+2017-09-28 17:03:23 hu_lian_wang_fen_xi_sha_long.py[line: 65] ERROR Parse HTML error. ErrorMsg: unconverted data remains: |来自:智能相对论
+2017-09-28 17:03:23 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30479-1.html, ErrorMsg: 'NoneType' object is not iterable
+2017-09-28 17:03:24 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30400-1.html success.
+2017-09-28 17:03:24 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:24 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30400-1.html, ErrorMsg: 
+2017-09-28 17:03:24 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30159-1.html success.
+2017-09-28 17:03:25 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:25 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30159-1.html, ErrorMsg: 
+2017-09-28 17:03:26 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30158-1.html success.
+2017-09-28 17:03:26 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:26 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30158-1.html, ErrorMsg: 
+2017-09-28 17:03:27 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30141-1.html success.
+2017-09-28 17:03:27 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:27 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30141-1.html, ErrorMsg: 
+2017-09-28 17:03:28 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30137-1.html success.
+2017-09-28 17:03:28 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:28 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30137-1.html, ErrorMsg: 
+2017-09-28 17:03:29 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30080-1.html success.
+2017-09-28 17:03:29 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:29 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30080-1.html, ErrorMsg: 
+2017-09-28 17:03:30 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30036-1.html success.
+2017-09-28 17:03:30 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:30 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30036-1.html, ErrorMsg: 
+2017-09-28 17:03:32 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-30027-1.html success.
+2017-09-28 17:03:32 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:32 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-30027-1.html, ErrorMsg: 
+2017-09-28 17:03:33 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29946-1.html success.
+2017-09-28 17:03:33 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:33 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29946-1.html, ErrorMsg: 
+2017-09-28 17:03:34 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29914-1.html success.
+2017-09-28 17:03:34 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:34 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29914-1.html, ErrorMsg: 
+2017-09-28 17:03:35 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29894-1.html success.
+2017-09-28 17:03:35 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:35 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29894-1.html, ErrorMsg: 
+2017-09-28 17:03:36 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29880-1.html success.
+2017-09-28 17:03:36 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:36 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29880-1.html, ErrorMsg: 
+2017-09-28 17:03:38 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29877-1.html success.
+2017-09-28 17:03:38 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:38 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29877-1.html, ErrorMsg: 
+2017-09-28 17:03:39 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29863-1.html success.
+2017-09-28 17:03:39 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:39 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29863-1.html, ErrorMsg: 
+2017-09-28 17:03:40 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29860-1.html success.
+2017-09-28 17:03:40 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:40 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29860-1.html, ErrorMsg: 
+2017-09-28 17:03:41 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29787-1.html success.
+2017-09-28 17:03:41 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:41 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29787-1.html, ErrorMsg: 
+2017-09-28 17:03:42 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29766-1.html success.
+2017-09-28 17:03:42 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:42 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29766-1.html, ErrorMsg: 
+2017-09-28 17:03:43 Crawler.py[line: 160] INFO Get http://www.techxue.com/ecdata/index.php?page=2 success.
+2017-09-28 17:03:44 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29684-1.html success.
+2017-09-28 17:03:44 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:44 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29684-1.html, ErrorMsg: 
+2017-09-28 17:03:45 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29672-1.html success.
+2017-09-28 17:03:45 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:45 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29672-1.html, ErrorMsg: 
+2017-09-28 17:03:46 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29652-1.html success.
+2017-09-28 17:03:46 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:46 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29652-1.html, ErrorMsg: 
+2017-09-28 17:03:47 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29595-1.html success.
+2017-09-28 17:03:47 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:47 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29595-1.html, ErrorMsg: 
+2017-09-28 17:03:48 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29548-1.html success.
+2017-09-28 17:03:48 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:48 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29548-1.html, ErrorMsg: 
+2017-09-28 17:03:49 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29516-1.html success.
+2017-09-28 17:03:49 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:49 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29516-1.html, ErrorMsg: 
+2017-09-28 17:03:50 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29424-1.html success.
+2017-09-28 17:03:50 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:50 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29424-1.html, ErrorMsg: 
+2017-09-28 17:03:51 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29418-1.html success.
+2017-09-28 17:03:52 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:52 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29418-1.html, ErrorMsg: 
+2017-09-28 17:03:52 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29415-1.html success.
+2017-09-28 17:03:52 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:52 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29415-1.html, ErrorMsg: 
+2017-09-28 17:03:53 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29394-1.html success.
+2017-09-28 17:03:53 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:53 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29394-1.html, ErrorMsg: 
+2017-09-28 17:03:54 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29343-1.html success.
+2017-09-28 17:03:54 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:54 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29343-1.html, ErrorMsg: 
+2017-09-28 17:03:54 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29305-1.html success.
+2017-09-28 17:03:55 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:55 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29305-1.html, ErrorMsg: 
+2017-09-28 17:03:55 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29283-1.html success.
+2017-09-28 17:03:55 hu_lian_wang_fen_xi_sha_long.py[line: 65] ERROR Parse HTML error. ErrorMsg: unconverted data remains: |来自:速途研究院
+2017-09-28 17:03:55 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29283-1.html, ErrorMsg: 'NoneType' object is not iterable
+2017-09-28 17:03:56 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29259-1.html success.
+2017-09-28 17:03:56 hu_lian_wang_fen_xi_sha_long.py[line: 65] ERROR Parse HTML error. ErrorMsg: unconverted data remains: |来自:优匙
+2017-09-28 17:03:56 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29259-1.html, ErrorMsg: 'NoneType' object is not iterable
+2017-09-28 17:03:57 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29251-1.html success.
+2017-09-28 17:03:57 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:57 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29251-1.html, ErrorMsg: 
+2017-09-28 17:03:58 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29247-1.html success.
+2017-09-28 17:03:58 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:58 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29247-1.html, ErrorMsg: 
+2017-09-28 17:03:59 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29239-1.html success.
+2017-09-28 17:03:59 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:03:59 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29239-1.html, ErrorMsg: 
+2017-09-28 17:04:00 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29238-1.html success.
+2017-09-28 17:04:00 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:04:00 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29238-1.html, ErrorMsg: 
+2017-09-28 17:04:01 Crawler.py[line: 160] INFO Get http://www.techxue.com/techxue-29234-1.html success.
+2017-09-28 17:04:01 Crawler.py[line: 129] ERROR Save HTML file error. ErrorMsg: write() argument must be str, not int
+2017-09-28 17:04:01 Crawler.py[line: 99] ERROR Process link failed. URL=http://www.techxue.com/techxue-29234-1.html, ErrorMsg: 

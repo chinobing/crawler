@@ -1,6 +1,4 @@
-from customize_website import main
-from weixin.gzh import xigua
-
+from kr_tags import main
 
 main.main()
 

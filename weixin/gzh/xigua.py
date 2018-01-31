@@ -11,7 +11,7 @@ import datetime
 cookies_dict = {}
 
 # 直接登录后拿到的cookie, 以后需要模拟登录拿数据
-cookies_str = '_XIGUASTATE=XIGUASTATEID=0b8ee74b9b4d442b93a1ccc2fc37952d; BigBiz659938=False; ExploreTags659938=; _chl=key=FromBaiDu&word=6KW/55Oc5Yqp5omL; LoginTag=f96998769edb41af85d363d96358b5a5; ASP.NET_SessionId=hky251rjd5m03wks3vcgkped; Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1504410708,1505398888,1505451972; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=1505456040; _XIGUA=UserId=d471a30ba6f3c365&Account=fd0673b157bef6e1f2b65e9f22a7aed8&checksum=07f82d9710fc; SaveUserName=18911949659; LV2=1; SERVERID=2e7fd5d7f4caba1a3ae6a9918d4cc9a6|1505456742|1505451960'
+cookies_str = '_XIGUASTATE=XIGUASTATEID=89605171039745afacb37733e73a0fd6; Qs_lvt_194035=1509696566%2C1509696676; Qs_pv_194035=2007596450565270300%2C4160772816867946000; _chl=key=FromBaidu&word=6KW/55Oc5Yqp5omL; LoginTag=46b0c5d5b2c642a6bb37e5f4dada68a8; Hm_lvt_72aa476a79cf5b994d99ee60fe6359aa=1516369865; Hm_lpvt_72aa476a79cf5b994d99ee60fe6359aa=1516369867; ASP.NET_SessionId=1nv040jeaa4cnbod3v3ifldy; _XIGUA=UserId=d471a30ba6f3c365&Account=fd0673b157bef6e1f2b65e9f22a7aed8&checksum=a1d6b6d6455e; SaveUserName=18911949659; LV2=1; Big3Biz672571=False; ShowOneKeyAsyncTip=1; ExploreTags672571=; SERVERID=0a1db1b547a47b70726acefc0225fff8|1516429656|1516369866'
 
 
 create_table_sql = "CREATE TABLE IF NOT EXISTS article_wechat(" \
@@ -216,4 +216,5 @@ def main():
     crawl()
 
 
-
+if __name__ == "__main__":
+    main()

@@ -75,7 +75,7 @@ class Crawler(object):
                 file_name = url[slash_pos + 1: point_pos]
             else:
                 file_name = url[slash_pos + 1:]
-            html_content = self.use_phantom_get_req(url, "36kr.com")
+            html_content = self.get_req(link=url)
             self.make_dirs()
             src_content = html_content
             # try:
@@ -112,7 +112,7 @@ class Crawler(object):
         """
         :return: 链接所在的正文, 转义所有的换行符为\n
         """
-        return "", "", 0, "2000:01:01 00:00:00"
+        return "", "", 0, "2000-01-01 00:00:00"
 
     def make_dirs(self):
         try:
